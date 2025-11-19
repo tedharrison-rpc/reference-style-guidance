@@ -265,6 +265,8 @@ more information.
 
 **Template**
 
+TODO
+
 **Example**
 
 ``` txt
@@ -278,6 +280,8 @@ more information.
 ### IEEE
 
 **Template**
+
+TODO
 
 **Example**
 
@@ -294,6 +298,8 @@ more information.
 
 **Template**
 
+TODO
+
 **Example**
 
 ``` txt
@@ -308,6 +314,8 @@ more information.
 ### W3C
 
 **Template**
+
+TODO
 
 **Example**
 
@@ -443,6 +451,8 @@ TODO
 
 **Example**
 
+TODO
+
 **Note:**
 
 ### Online Periodical (Newspaper, Magazine, etc.)
@@ -466,7 +476,11 @@ TODO
 
 **Template**
 
+TODO
+
 **Example**
+
+TODO
 
 **Note:**
 
@@ -547,7 +561,11 @@ TODO add NIST as publisher?
 
 **Template**
 
+TODO
+
 **Example**
+
+TODO
 
 **Note:**
 
@@ -580,6 +598,10 @@ in. If referencing the Crypto ePrint Archive, use the above template.”
 
 **Template**
 
+TODO
+
 **Example**
+
+TODO
 
 **Note:**
