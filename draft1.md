@@ -459,7 +459,9 @@ TODO
 
 **Template**
 
-TODO
+``` txt
+  [CITE-TAG] Author, A., "Title of article", Name of periodical / publication, Date, <URL>.
+```
 
 **Example**
 
