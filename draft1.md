@@ -332,6 +332,12 @@ TODO
 
 **Template**
 
+``` txt
+  [CITE-TAG] WHATWG, "Name of Living Standard", WHATWG Living Standard, <URL>.
+
+  Commit snapshot: <Commit Snapshot URL>
+```
+
 **Example**
 
 ``` txt
@@ -342,14 +348,18 @@ TODO
 
 **Note:**
 
-TODO note about why a commit snapshot is needed TODO should the date be
-included
+TODO note about why a commit snapshot is needed / how to find commit snapshot
+TODO should the date be included
 
 ### 3GPP
 
 **Template**
 
+TODO
+
 **Example**
+
+TODO
 
 **Note:**
 
@@ -357,7 +367,11 @@ included
 
 **Template**
 
+TODO
+
 **Example**
+
+TODO
 
 **Note:**
 
