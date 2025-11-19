@@ -268,7 +268,10 @@ more information.
 
 **Template**
 
-TODO
+``` txt
+   [CITE-TAG] Organization (i.e., "ISO", "IEC", or "ISO/IEC", "Title of the
+   standard", Standard Series number, Date, <URL>.
+```
 
 **Example**
 
