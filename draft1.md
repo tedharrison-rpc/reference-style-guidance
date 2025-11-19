@@ -1,5 +1,7 @@
 # Reference Style Guidance
 
+TODO add note about contacting TH / RPC with questions about this information
+
 ## RFCs and Adjacent
 
 ### Request for Comments (RFCs)
