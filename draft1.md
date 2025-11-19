@@ -1,6 +1,9 @@
 # Reference Style Guidance
 
-TODO add note about contacting TH / RPC with questions about this information
+This section covers style guidance for references in Internet-Drafts and RFCs.
+
+If you have a question about any of the content on this page please email TODO:
+who should they email?
 
 ## RFCs and Adjacent
 
