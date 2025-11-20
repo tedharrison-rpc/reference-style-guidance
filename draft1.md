@@ -302,11 +302,16 @@ more information.
 
 **Note:**
 
-### ITU / ITU-T
+We recommend pointing to IEEExplore. For example: https://ieeexplore.ieee.org/document/9363693
+
+### ITU-T Recommendations
 
 **Template**
 
-TODO
+``` txt
+   [ITU-T] ITU-T, "Title of ITU-T Recommendation", ITU-T Recommendation #, Date,
+   <URL>.
+```
 
 **Example**
 
