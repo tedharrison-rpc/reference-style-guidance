@@ -283,11 +283,13 @@ more information.
 
 **Note:**
 
-### IEEE
+### IEEE Standards
 
 **Template**
 
-TODO
+``` txt
+[IEEE-STD] IEEE, "Title of IEEE Std", IEEE Std #, DOI, Year, <URL or DOI URL>.
+```
 
 **Example**
 
