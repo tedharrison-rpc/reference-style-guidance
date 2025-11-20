@@ -9,11 +9,6 @@ who should they email?
 
 ### Request for Comments (RFCs)
 
-The Digital Object Identifier (DOI) is now listed in each reference to
-an RFC. The first example in [Section 4.8.6.2 of RFC
-7322](https://www.rfc-editor.org/rfc/rfc7322#section-4.8.6.2) is updated
-as follows.
-
 **Template**
 
 ``` txt
@@ -31,9 +26,13 @@ as follows.
 
 **Note:**
 
-References to RFCs can be added using the BibXML service.
+References to RFCs can be added using the [BibXML service](https://bib.ietf.org/).
 
 ### Internet Drafts (I-Ds)
+
+TODO based on feedback:
+perhaps change the example for the ref to the I-D to something more
+current. Perhaps list an rswg doc or something?
 
 **Template**
 
@@ -54,9 +53,13 @@ References to RFCs can be added using the BibXML service.
 
 **Note:**
 
-References to I-Ds can be added using the BibXML service.
+References to I-Ds can be added using the [BibXML service](https://bib.ietf.org/).
 
 ### Subseries - Best Current Practices (BCPs) and Internet Standards (STDs)
+
+TODO edit meeting feedback:
+the template and example for the Subseries should be updated for currency. The
+format has changed - the current example is missing the intro text, for example
 
 This guidance overrides [Section 4.8.6.3 of RFC
 7322](https://www.rfc-editor.org/rfc/rfc7322#section-4.8.6.3).
@@ -94,7 +97,7 @@ follows:
 
 **Note:**
 
-References to subseries can be added using the BibXML service.
+References to subseries can be added using the [BibXML service](https://bib.ietf.org/).
 
 ### Errata
 
@@ -123,6 +126,10 @@ on the RFC interest list.
 
 Errata in the [Reported](https://www.rfc-editor.org/errata-definitions/)
 state should not be referenced; they are not considered stable.
+
+TODO (incorporate feedback from Sandy; see Issue#1: For this note, perhaps add
+we recommend authors ask the ADs to verify the errata if they are valid and
+being addressed/referenced in the current doc?)
 
 ### IETF Proceedings and Workshops
 
