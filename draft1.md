@@ -513,7 +513,12 @@ TODO
 
 **Example**
 
-TODO
+``` txt
+   [REST] Fielding, R., "Architectural Styles and the Design of Network-based
+   Software Architectures", Ph.D. Dissertation, University of California,
+   Irvine, 2000,
+   <https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf>.
+```
 
 **Note:**
 
