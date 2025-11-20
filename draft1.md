@@ -448,7 +448,10 @@ versioned URL with “&”:
 
 **Template**
 
-TODO
+``` txt
+   [JOURNAL-ART] Author, A.B., "Title of Paper", Name of Journal, vol. # (if
+   applicable), no. # (if applicable), Date, pp. #, DOI (if applicable), <URL>.
+```
 
 **Example**
 
@@ -459,6 +462,14 @@ TODO
 ```
 
 **Note:**
+
+For journal articles with volume and issue numbers use the following style:
+
+Volume 1 = vol. 1
+
+Issue 1 = no. 1
+
+If you wish to use another reference style please let the RPC know.
 
 ### Conference Papers
 
