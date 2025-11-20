@@ -523,6 +523,16 @@ TODO
 
 **Note:**
 
+TODO current style guidance; does this need to be updated
+
+Format of reference entries:
+
+- authors — omit them
+- title — include if available (some judgement may be required on the part of the editors and authors to have a sensible title)
+- commit hash — include if exists, short form preferred if available
+- date — use date of last commit at time doc is edited
+- URL — include URL to main page of repository
+
 ### Files within a repository
 
 **Template**
