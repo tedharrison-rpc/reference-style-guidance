@@ -412,6 +412,22 @@ TODO
 TODO Provide reasoning and examples for including dated URIs - when to
 use?
 
+**URIs for References**
+
+From [Section 4.8.6.1 of RFC
+7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1):
+
+> The use of URIs in references is acceptable, as long as the URI is
+> the most stable (i.e., unlikely to change and expected to be
+> continuously available) and direct reference possible.  The URI will
+> be verified as valid during the RFC editorial process.
+>
+> If a dated URI (one that includes a timestamp for the page) is
+> available for a referenced web page, its use is required.
+>
+> Note that URIs may not be the sole information provided for a
+> reference entry.
+
 **Dated URIs**
 
 From [Section 4.8.6.1 of RFC
