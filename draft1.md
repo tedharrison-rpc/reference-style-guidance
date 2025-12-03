@@ -2,8 +2,16 @@
 
 This section covers style guidance for references in Internet-Drafts and RFCs.
 
-If you have a question about any of the content on this page please email TODO:
-who should they email?
+If you need help with references for your document beyond what is covered
+here, please contact the RFC Production Center (RPC) at
+rfc-editor@rfc-editor.org.
+
+If you notice any issues or are aware of any updates to the information on this
+page, please open an issue on GitHub or send an email to the RPC
+(rfc-editor@rfc-editor.org).
+
+(REVIEW NOTE: should we recommend sending an email to my staff.rfc-editor.org
+address or is rfc-editor@rfc-editor.org sufficient
 
 ## RFCs and Adjacent
 
