@@ -366,13 +366,22 @@ TODO
 ``` txt
    [URL-PATTERN] WHATWG, "URL Pattern", WHATWG Living Standard, <https://urlpattern.spec.whatwg.org/>.
 
-   Commit snapshot: https://urlpattern.spec.whatwg.org/commit-snapshots/d13ebead18003059a83ca4a25240e5cafc066c4c/
+   Commit snapshot: <https://urlpattern.spec.whatwg.org/commit-snapshots/d13ebead18003059a83ca4a25240e5cafc066c4c/>
 ```
 
 **Note:**
 
-TODO note about why a commit snapshot is needed / how to find commit snapshot
-TODO should the date be included
+WHATWG provides ["commit
+snapshots"](https://urlpattern.spec.whatwg.org/commit-snapshots/d13ebead18003059a83ca4a25240e5cafc066c4c/)
+for their standards. Since WHATWG publishes ["Living
+Standards"](https://whatwg.org/faq#living-standard) which are regularly updated
+and changed, we recommend adding a URL to this commit snapshot in the reference
+in an annotation (see example and template).
+
+The URL for the commit snapshot can be found by clicking the "Snapshot as of this commit" link provided at the main URL for a Living Standard.
+
+For more information on WHATWG commit snapshots see:
+https://whatwg.org/faq#change-at-any-time
 
 ### 3GPP
 
