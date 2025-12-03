@@ -127,9 +127,12 @@ on the RFC interest list.
 Errata in the [Reported](https://www.rfc-editor.org/errata-definitions/)
 state should not be referenced; they are not considered stable.
 
-TODO (incorporate feedback from Sandy; see Issue#1: For this note, perhaps add
-we recommend authors ask the ADs to verify the errata if they are valid and
-being addressed/referenced in the current doc?)
+**Note on Updating RFCs**
+
+If you are writing an Internet-Draft that updates an RFC, we recommend asking
+your Area Director (AD) to verify any reported errata for that RFC. Also, during
+the RPC intake process, please clarify if any of the verified errata for that
+RFC are being addressed by document.
 
 ### IETF Proceedings and Workshops
 
