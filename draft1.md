@@ -419,7 +419,7 @@ TODO
 
 This section provides more information to (or just "updates?") on the guidance
 for using URIs in RFCs from [Section 4.8.6.1 of RFC
-7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1
+7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1)
 
 **"Link rot" and "content drift"**
 
