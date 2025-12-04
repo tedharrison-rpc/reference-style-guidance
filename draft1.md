@@ -417,8 +417,60 @@ TODO
 
 ## General Web Content
 
-TODO Provide reasoning and examples for including dated URIs - when to
-use?
+This section provides more information to (or just "updates?") on the guidance
+for using URIs in RFCs from [Section 4.8.6.1 of RFC
+7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1
+
+**"Link rot" and "content drift"**
+
+When assessing a reference URL for stability, consider that the URLs be affected
+by "link rot" and/or "content drift".
+
+"Link rot" is when the provided URL fails to point to its original target. This
+failure is often the result of the resource being moved to a new address or
+becoming permanently unavailable.
+
+"Content drift" is the phenomenon when the URL
+still functions, but the content available at that URL changes over time - for
+example, an organization's homepage content changing due to that organization
+changing its name or being folded into another organization.
+
+Using permanent identifiers and/or archived URLs may help preserve the stability
+of a reference's URL and prevent a reference from being affected by link rot or
+content drift.
+
+For more information on link rot and content drift see:
+- https://en.wikipedia.org/w/index.php?title=Link_rot&oldid=1324240675
+- https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/
+- https://www.cjr.org/analysis/linkrot-content-drift-new-york-times.php
+- https://dl.acm.org/doi/10.1145/602421.602422
+
+**Assessing Reference URI/URL for Stability**
+
+From [Section 4.8.6.1 of RFC
+7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1):
+
+> The use of URIs in references is acceptable, as long as the URI is
+> the most stable (i.e., unlikely to change and expected to be
+> continuously available) and direct reference possible.  The URI will
+> be verified as valid during the RFC editorial process.
+
+When assessing URLs for stability, consider the following:
+
+- Is there a permanent identifier for the reference (for example, a Digital
+  Object Identifier (DOI))?
+
+If there is a permanent identifier for the reference, we recommend including it
+in the reference entry.
+
+- Is there a concern about the stability of the reference's URL? For example, is
+  the URL likely to redirect or "break" in the next few years?
+
+If there is a concern about the stability of the URL, we recommending including
+an archived URL in an annotation in the reference. For example, using the
+[Internet Archive Wayback Machine](https://web.archive.org/) or
+[Perma.cc](https://perma.cc/).
+
 
 **URIs for References**
 
