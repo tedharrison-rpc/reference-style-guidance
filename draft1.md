@@ -7,7 +7,7 @@ here, please contact the RFC Production Center (RPC) at
 rfc-editor@rfc-editor.org.
 
 If you notice any issues or are aware of any updates to the information on this
-page, please open an issue on GitHub or send an email to the RPC
+page, please open an [issue on GitHub](https://github.com/ietf/authors.ietf.org/issues) or send an email to the RPC
 (rfc-editor@rfc-editor.org).
 
 (REVIEW NOTE: should we recommend sending an email to my staff.rfc-editor.org
