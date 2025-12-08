@@ -437,7 +437,7 @@ From [Section 4.8.6.1 of RFC
 > Note that URIs may not be the sole information provided for a
 > reference entry.
 
-**Assessing Reference URI/URL for Stability**
+**Assessing Reference URI/URL for Permanence and Stability**
 
 From [Section 4.8.6.1 of RFC
 7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1):
