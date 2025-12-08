@@ -419,11 +419,6 @@ TODO
 
 This section provides more information to (or just "updates?") on the guidance
 for using URIs in RFCs from [Section 4.8.6.1 of RFC
-7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1)
-
-**URIs for References**
-
-From [Section 4.8.6.1 of RFC
 7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1):
 
 > The use of URIs in references is acceptable, as long as the URI is
@@ -449,63 +444,7 @@ From [Section 4.8.6.1 of RFC
 
 When assessing URLs for stability, consider the following:
 
-**Using Permanent URLs - i.e., "permalinks", Digital Object Identifiers (DOIs), etc.**
-
-- Is there a permanent identifier for the reference (for example, a Digital
-  Object Identifier (DOI))?
-
-If there is a permanent identifier for the reference, we recommend including it
-in the reference entry.
-
-**Using Archived URLs**
-
-- Is there a concern about the stability of the reference's URL? For example, is
-  the URL likely to redirect or "break" in the next few years?
-
-If there is a concern about the stability of the URL, we recommending using an
-archived URL in the reference. For example, using the [Internet Archive Wayback
-Machine](https://web.archive.org/) or [Perma.cc](https://perma.cc/).
-
-TODO seems like this was discussed by RSWG: https://www.rfc-editor.org/staff/wiki/doku.php?id=wayback_machine_url
-https://mailarchive.ietf.org/arch/msg/rswg/_X85fmA37bulrJHgy64pSMuSEPE/
-
-**Dated URIs**
-
-From [Section 4.8.6.1 of RFC
-7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1):
-
-> If a dated URI (one that includes a timestamp for the page) is
-> available for a referenced web page, its use is required.
-
-TODO rather than have this be "Dated URIs" maybe some general information on
-when to use dates for website refs: consider CMOS guidance:
-https://www.chicagomanualofstyle.org/book/ed18/part3/ch14/psec104.html
-
-TODO expand this; there is a common annoyance I see in references where the authors cite something, include a date like "2022", but it doesn't match anything related to the reference. For example, that date doesn't appear anywhere on the webpage or it contradicts the date that is currently there. Currently, this results in a lot of tedium. Clarifying what type of date goes in that space would be helpful and make less work for the RPC.
-
-Should we enforce an "Access date"? - no CMOS says they're of "limited value"
-
-dates to consider:
-- "Last modified" or equivalent
-- Publication date
-
-Note the difference between the two...
-
-TODO what to do if there is no date? Don't use "n.d.", just leave that value
-empty.
-
-TODO what date format to use? When to use DD MM YYYY vs MM YYYY vs YYYY?
-**"Last modified" and other revision dates**
-
-> Some electronic documents list a date indicating the last time the document was
-> modified or revised. There are no accepted standards for this practice, and for
-> formally published sources a date of publication is generally more important. A
-> revision date should be included, however, if it is presented as the de facto
-> date of publication or is otherwise the only available date. Such dates may be
-> particularly useful for citing wikis and other frequently updated works. For
-> examples, see 14.104, 14.131, and 14.132.
-
-**FYI: "Link rot" and "content drift"**
+**"Link rot" and "content drift"**
 
 "Link rot" is when the provided URL fails to point to its original target. This
 failure is often the result of the resource being moved to a new address or
@@ -525,6 +464,69 @@ For more information on link rot and content drift see:
 - https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/
 - https://www.cjr.org/analysis/linkrot-content-drift-new-york-times.php
 - https://dl.acm.org/doi/10.1145/602421.602422
+
+**Using Permanent URLs - i.e., "permalinks", Digital Object Identifiers (DOIs), etc.**
+
+- Is there a permanent identifier for the reference (for example, a Digital
+  Object Identifier (DOI))?
+
+If there is a permanent identifier for the reference, we recommend including it
+in the reference entry.
+
+**Using Archived URLs**
+
+- Is there a concern about the longevity of the reference's URL? For example, is
+  the URL likely to redirect or "break" in the next few years?
+
+If there is a concern about the longevity of the URL, we recommending using an
+archived URL in the reference. For example, using the [Internet Archive Wayback
+Machine](https://web.archive.org/) or [Perma.cc](https://perma.cc/).
+
+TODO seems like this was discussed by RSWG: https://www.rfc-editor.org/staff/wiki/doku.php?id=wayback_machine_url
+https://mailarchive.ietf.org/arch/msg/rswg/_X85fmA37bulrJHgy64pSMuSEPE/
+Any other considerations?
+
+**Dates for references to websites and web content**
+
+From [Section 4.8.6.1 of RFC
+7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1):
+
+> If a dated URI (one that includes a timestamp for the page) is
+> available for a referenced web page, its use is required.
+
+TODO rather than have this be "Dated URIs" maybe some general information on
+when to use dates for website refs: consider CMOS guidance:
+https://www.chicagomanualofstyle.org/book/ed18/part3/ch14/psec104.html
+
+TODO expand this; there is a common annoyance I see in references where the
+authors cite something, include a date like "2022", but it doesn't match
+anything related to the reference. For example, that date doesn't appear
+anywhere on the webpage or it contradicts the date that is currently
+there. Currently, this results in a lot of tedium. Clarifying what type of date
+goes in that space would be helpful and make less work for the RPC.
+
+Should we enforce an "Access date"? - no CMOS says they're of "limited value"
+
+dates to consider:
+- "Last modified" or equivalent
+- Publication date
+- archived date
+
+Note the difference between these...
+
+TODO what to do if there is no date? Don't use "n.d.", just leave that value
+empty.
+
+TODO what date format to use? When to use DD MM YYYY vs MM YYYY vs YYYY?
+**"Last modified" and other revision dates**
+
+> Some electronic documents list a date indicating the last time the document was
+> modified or revised. There are no accepted standards for this practice, and for
+> formally published sources a date of publication is generally more important. A
+> revision date should be included, however, if it is presented as the de facto
+> date of publication or is otherwise the only available date. Such dates may be
+> particularly useful for citing wikis and other frequently updated works. For
+> examples, see 14.104, 14.131, and 14.132.
 
 ### Websites
 
