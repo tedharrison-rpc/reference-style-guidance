@@ -415,7 +415,9 @@ TODO
 
 **Note:**
 
-## General Web Content
+## General Web Content ("Web" vs "Internet"? does it matter?)
+
+### Referencing Internet Content: Best Practices and Recommendations
 
 This section provides more information to (or just "updates?") on the guidance
 for using URIs in RFCs from [Section 4.8.6.1 of RFC
@@ -486,48 +488,6 @@ TODO seems like this was discussed by RSWG: https://www.rfc-editor.org/staff/wik
 https://mailarchive.ietf.org/arch/msg/rswg/_X85fmA37bulrJHgy64pSMuSEPE/
 Any other considerations?
 
-**Dates for references to websites and web content**
-
-From [Section 4.8.6.1 of RFC
-7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1):
-
-> If a dated URI (one that includes a timestamp for the page) is
-> available for a referenced web page, its use is required.
-
-TODO rather than have this be "Dated URIs" maybe some general information on
-when to use dates for website refs: consider CMOS guidance:
-https://www.chicagomanualofstyle.org/book/ed18/part3/ch14/psec104.html
-
-TODO expand this; there is a common annoyance I see in references where the
-authors cite something, include a date like "2022", but it doesn't match
-anything related to the reference. For example, that date doesn't appear
-anywhere on the webpage or it contradicts the date that is currently
-there. Currently, this results in a lot of tedium. Clarifying what type of date
-goes in that space would be helpful and make less work for the RPC.
-
-Should we enforce an "Access date"? - no CMOS says they're of "limited value"
-
-dates to consider:
-- "Last modified" or equivalent
-- Publication date
-- archived date
-
-Note the difference between these...
-
-TODO what to do if there is no date? Don't use "n.d.", just leave that value
-empty.
-
-TODO what date format to use? When to use DD MM YYYY vs MM YYYY vs YYYY?
-**"Last modified" and other revision dates**
-
-> Some electronic documents list a date indicating the last time the document was
-> modified or revised. There are no accepted standards for this practice, and for
-> formally published sources a date of publication is generally more important. A
-> revision date should be included, however, if it is presented as the de facto
-> date of publication or is otherwise the only available date. Such dates may be
-> particularly useful for citing wikis and other frequently updated works. For
-> examples, see 14.104, 14.131, and 14.132.
-
 ### Websites
 
 **Template**
@@ -544,23 +504,23 @@ TODO what date format to use? When to use DD MM YYYY vs MM YYYY vs YYYY?
 
 **Note:**
 
-**Titles for websites, blogs, and social media**
+**Titles for references to  websites.**
 
-TODO write this out...
-(Note for review: adapted from [CMOS 14.103](https://www.chicagomanualofstyle.org/book/ed18/part3/ch14/psec103.html) and [CMOS 14.104](https://www.chicagomanualofstyle.org/book/ed18/part3/ch14/psec104.html))
+Some websites may not have exact titles or the title may not be clear. If this
+is the case, a description may be used instead.
 
-CMOS 14.103:
-> If a website or web page does not have a title, a description may be used
-> instead.
+For example:
 
-CMOS 14.104:
+```txt
+   Microsoft, "Microsoft home page", <https://https://www.microsoft.com/en-us/>.
+```
 
-> Include as much of the following as can be determined: the title or
-> description of the specific page (if cited); the title or description of the
-> site as a whole (see 14.103); the owner or sponsor of the site; and a URL.
+**Dates for references to websites**
 
-TODO treat blogs the same as news articles essentially:
-https://www.chicagomanualofstyle.org/book/ed18/part3/ch14/psec105.html
+If the website being reference includes a publication date or "Last modified"
+date (or equivalent) include it as the date for the reference.
+
+TODO should we include the archived date?
 
 ### Wikipedia Articles
 
