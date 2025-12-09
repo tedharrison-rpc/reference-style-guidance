@@ -434,18 +434,25 @@ that version. For example:
 
 ### Unicode Consortium
 
-**Template**
+The following guidance is adapted from the [Unicode Consortium's reference guidance](https://www.unicode.org/versions/#References).
+
+#### Referencing the latest version of the Unicode Standard (versionless)
 
 ```txt
-[CITE-TAG] Author(s), "Title of W3C Recommendation", W3C Recommendation, Date of
-Publication, <URL>.
+[UNICODE] The Unicode Consortium, "The Unicode Standard",
+<https://www.unicode.org/versions/latest/>.
 ```
 
-**Example**
+#### Referencing a specific version of the Unicode Standard (versioned)
 
-TODO
+```txt
+[UNICODE-V17] The Unicode Consortium, "The Unicode Standard", Version 17.0.0, 2025, <https://www.unicode.org/versions/Unicode17.0.0/>.
+```
 
 **Note:**
+
+TODO note on emphasizing when to reference/cite the latest version vs. a
+specific version
 
 ## General Web Content ("Web" vs "Internet"? does it matter?)
 
