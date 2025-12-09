@@ -757,7 +757,10 @@ TODO add NIST as publisher?
 
 **Template**
 
-TODO
+```txt
+[CITE-TAG] Author, "Title of Dissertation", MA/MS/Ph.D. Dissertation, Awarding
+Institution, Date, <URL>.
+```
 
 **Example**
 
