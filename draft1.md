@@ -38,10 +38,6 @@ References to RFCs can be added using the [BibXML service](https://bib.ietf.org/
 
 ### Internet Drafts (I-Ds)
 
-TODO based on feedback:
-perhaps change the example for the ref to the I-D to something more
-current. Perhaps list an rswg doc or something?
-
 **Template**
 
 ``` txt
@@ -54,9 +50,9 @@ current. Perhaps list an rswg doc or something?
 **Example**
 
 ``` txt
-    [RFC-STYLE] Flanagan, H. and S. Ginoza, "RFC Style Guide", Work in
-    Progress, Internet-Draft, draft-flanagan-style-04, 27 September 2019,
-    <https://datatracker.ietf.org/doc/html/draft-flanagan-style-04>.
+    [RFC-STYLE] Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)", Work in
+    Progress, Internet-Draft, draft-editorial-rswg-rfc9280-updates-04, 31 July 2025,
+    <https://datatracker.ietf.org/doc/draft-editorial-rswg-rfc9280-updates/>.
 ```
 
 **Note:**
