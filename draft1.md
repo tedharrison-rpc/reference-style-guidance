@@ -409,7 +409,10 @@ https://whatwg.org/faq#change-at-any-time
 
 **Template**
 
-TODO
+```txt
+[CITE-TAG] Author(s), "Title of W3C Recommendation", W3C Recommendation, Date of
+Publication, <URL>.
+```
 
 **Example**
 
