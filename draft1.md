@@ -162,6 +162,10 @@ References to I-Ds can be added using the [BibXML service](https://bib.ietf.org/
 
 ### Subseries - Best Current Practices (BCPs) and Internet Standards (STDs)
 
+TODO edit meeting feedback:
+the template and example for the Subseries should be updated for currency. The
+format has changed - the current example is missing the intro text, for example
+
 This guidance overrides [Section 4.8.6.3 of RFC
 7322](https://www.rfc-editor.org/rfc/rfc7322#section-4.8.6.3).
 
