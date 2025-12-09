@@ -54,7 +54,7 @@ current. Perhaps list an rswg doc or something?
 **Example**
 
 ``` txt
-    [RFC-STYLE] Flanagan, H. and S.  Ginoza, "RFC Style Guide", Work in
+    [RFC-STYLE] Flanagan, H. and S. Ginoza, "RFC Style Guide", Work in
     Progress, Internet-Draft, draft-flanagan-style-04, 27 September 2019,
     <https://datatracker.ietf.org/doc/html/draft-flanagan-style-04>.
 ```
@@ -679,35 +679,36 @@ Institution, Date, <URL>.
 **Example**
 
 ``` txt
-   [pysaml2] “Python implementation of SAML2”, commit 7135d53, March 2018,
+   [pysaml2] “Python implementation of SAML2”, commit 7135d53, 6 March 2018,
    <https://github.com/IdentityPython/pysaml2>.
 ```
 
 **Note:**
-
-TODO current style guidance; does this need to be updated
 
 Format of reference entries:
 
 - authors — omit them
 - title — include if available (some judgement may be required on the part of the editors and authors to have a sensible title)
 - commit hash — include if exists, short form preferred if available
-- date — use date of last commit at time doc is edited
+- date — use date of last commit at time doc is edited.
 - URL — include URL to main page of repository
 
 ### Files within a repository
 
 **Template**
 
-TODO
+```txt
+  [CITE-TAG] "filename", commit hash, date, <URL>.
+```
 
 **Example**
 
-TODO
+```txt
+   [pysaml2-config] "config.py", commit 74dc24d, 26 September 2023,
+   <https://github.com/IdentityPython/pysaml2/blob/master/src/saml2/config.py>.
+```
 
 **Note:**
-
-TODO
 
 ## Government Publications
 
