@@ -655,7 +655,10 @@ TODO
 
 **Template**
 
-TODO
+```txt
+[CITE-TAG] Author, "Title of Dissertation", MA/MS/Ph.D. Dissertation, Awarding
+Institution, Date, <URL>.
+```
 
 **Example**
 
@@ -701,13 +704,15 @@ Format of reference entries:
 
 **Template**
 
-TOOD
+TODO
 
 **Example**
 
 TODO
 
 **Note:**
+
+TODO
 
 ## Government Publications
 
@@ -758,15 +763,23 @@ TODO add NIST as publisher?
 **Template**
 
 ```txt
-[CITE-TAG] Author, "Title of Dissertation", MA/MS/Ph.D. Dissertation, Awarding
-Institution, Date, <URL>.
+[CITE-TAG] ETSI, "Title of standard, specification, or report", Document
+identifier, Version number (if applicable), Date, <URL>.
 ```
 
 **Example**
 
-TODO
+```txt
+[nfv-framework] ETSI, "Network Functions Virtualisation (NFV); Architectural
+Framework", ETSI GS NFV 002, V1.2.1, December 2014,
+<https://www.etsi.org/deliver/etsi_gs/NFV/001_099/002/01.02.01_60/gs_NFV002v010201p.pdf>.
+```
 
 **Note:**
+
+A list of the types of standards, specifications, and reports produced by ETSI
+is available on [their
+website](https://www.etsi.org/standards/types-of-standards).
 
 ## Specific
 
