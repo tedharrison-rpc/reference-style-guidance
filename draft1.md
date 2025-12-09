@@ -810,10 +810,17 @@ in. If referencing the Crypto ePrint Archive, use the above template.”
 
 **Template**
 
-TODO
+```txt
+[CITE-TAG] Author(s), "Title of Paper", arXiv#, DOI (if applicable), Date,
+<URL>.
+```
 
 **Example**
 
-TODO
+```txt
+[Shors96] Shor, P. W., "Polynomial-Time Algorithms for Prime Factorization and
+Discrete Logarithms on a Quantum Computer", arXiv:quant-ph/9508027, DOI
+10.48550/arXiv.quant-ph/9508027, January 1996, <https://arxiv.org/abs/quant-ph/9508027>.
+```
 
 **Note:**
