@@ -609,13 +609,12 @@ versioned URL with “&”:
 
 **Note:**
 
-For journal articles with volume and issue numbers use the following style:
+For journal articles with volume and issue numbers we recommend using the
+following style:
 
 Volume 1 = vol. 1
 
 Issue 1 = no. 1
-
-If you wish to use another reference style please let the RPC know.
 
 ### Conference Papers
 
@@ -678,7 +677,7 @@ Institution, Date, <URL>.
 **Template**
 
 ```txt
-    TODO
+   [CITE-TAG] "Name or description of repository", commit hash, Date, <URL>.
 ```
 
 **Example**
@@ -801,10 +800,6 @@ website](https://www.etsi.org/standards/types-of-standards).
 ```
 
 **Note:**
-
-TODO Note on “don’t cite this URL and then include reference information
-for the conference proceedings / journal this paper was also published
-in. If referencing the Crypto ePrint Archive, use the above template.”
 
 ### arXiv Papers
 
