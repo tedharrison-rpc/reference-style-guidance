@@ -346,7 +346,10 @@ We recommend pointing to IEEExplore. For example: https://ieeexplore.ieee.org/do
 
 **Template**
 
-TODO
+```txt
+[CITE-TAG] Author(s), "Title of W3C Recommendation", W3C Recommendation, Date of
+Publication, <URL>.
+```
 
 **Example**
 
@@ -410,15 +413,24 @@ https://whatwg.org/faq#change-at-any-time
 **Template**
 
 ```txt
-[CITE-TAG] Author(s), "Title of W3C Recommendation", W3C Recommendation, Date of
-Publication, <URL>.
+[CITE-TAG] 3GPP, "Title of Spec", 3GPP TR/TS TR or TS Number, <URL>.
 ```
 
 **Example**
 
-TODO
+```txt
+[Spec-3GPP] 3GPP, "System architecture for the 5G System (5GS)", 3GPP TS 23.501, <https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3144>.
+```
 
 **Note:**
+
+If referencing a specific version from a specific release by 3GPP, include the
+version and release number, the date of publication, and the URL pointing to
+that version. For example:
+
+```txt
+[TR.26.857] 3GPP, "5G Media Service Enablers", 3GPP TR 26.857, Version 1.0.0, Release 18, September 2022, <https://ftp.3gpp.org//Specs/archive/26_series/26.857/26857-100.zip>.
+```
 
 ### Unicode Consortium
 
