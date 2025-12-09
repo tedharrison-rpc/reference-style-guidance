@@ -359,6 +359,20 @@ TODO
 
 **Note:**
 
+When referencing W3C documents, consider whether you are referencing the latest
+document in that series or the specific version of the W3C document as it exists
+at the time of publication. From [Section 11.6 of "W3C Manual of Style"](https://www.w3.org/guide/manual-of-style/#Linking) (19 November 2025):
+
+> Unless intentionally referring to the latest document in a series, always refer
+> to specific W3C documents by using the "this version" URI.
+
+The example provided previously in this section uses the "This version" URL
+provided by W3C (https://www.w3.org/TR/2008/REC-xml-20081126/).
+
+TODO guidance is a little confusing from W3C;
+https://www.w3.org/guide/manual-of-style/#ref-section recommends adding a
+"latest version" URL
+
 ### WHATWG
 
 **Template**
@@ -407,7 +421,10 @@ TODO
 
 **Template**
 
-TODO
+```txt
+[CITE-TAG] Author(s), "Title of W3C Recommendation", W3C Recommendation, Date of
+Publication, <URL>.
+```
 
 **Example**
 
