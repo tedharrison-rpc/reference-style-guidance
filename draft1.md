@@ -364,9 +364,16 @@ at the time of publication. From [Section 11.6 of "W3C Manual of Style"](https:/
 The example provided previously in this section uses the "This version" URL
 provided by W3C (https://www.w3.org/TR/2008/REC-xml-20081126/).
 
-TODO guidance is a little confusing from W3C;
+REVIEW NOTE:
+guidance is a little confusing from W3C;
 https://www.w3.org/guide/manual-of-style/#ref-section recommends adding a
 "latest version" URL
+
+Should we also recommend adding this? A previous version of our guidance placed
+the latest version in an annotation element?  Perhaps that could be the guidance
+for most reference types with a "This version" and "Latest version" URL? That
+is, include the "This version" URL as the main reference target and then add the
+"Latest version" URL in the annotation.
 
 ### WHATWG
 
@@ -443,8 +450,14 @@ The following guidance is adapted from the [Unicode Consortium's reference guida
 
 **Note:**
 
-TODO note on emphasizing when to reference/cite the latest version vs. a
-specific version
+REVIEW:
+How to phrase when to reference/cite the latest version vs. a
+specific version? I like W3C way of doing this:
+
+> Unless intentionally referring to the latest document in a series, always refer
+> to specific W3C documents by using the "this version" URI.
+
+Is this guidance we should include on this page?
 
 ## General Web Content ("Web" vs "Internet"? does it matter?)
 
@@ -515,8 +528,11 @@ If there is a concern about the longevity of the URL, we recommending using an
 archived URL in the reference. For example, using the [Internet Archive Wayback
 Machine](https://web.archive.org/) or [Perma.cc](https://perma.cc/).
 
-TODO seems like this was discussed by RSWG: https://www.rfc-editor.org/staff/wiki/doku.php?id=wayback_machine_url
-https://mailarchive.ietf.org/arch/msg/rswg/_X85fmA37bulrJHgy64pSMuSEPE/
+REVIEW:
+
+Noting thtat this it seems like this was discussed by RSWG:
+- https://www.rfc-editor.org/staff/wiki/doku.php?id=wayback_machine_url
+- https://mailarchive.ietf.org/arch/msg/rswg/_X85fmA37bulrJHgy64pSMuSEPE/
 Any other considerations?
 
 ### Websites
@@ -549,9 +565,9 @@ For example:
 **Dates for references to websites**
 
 If the website being reference includes a publication date or "Last modified"
-date (or equivalent) include it as the date for the reference.
+date (or equivalent), include it as the date for the reference.
 
-TODO should we include the archived date?
+REVIEW should we include the archived date?
 
 ### Wikipedia Articles
 
@@ -571,7 +587,8 @@ TODO should we include the archived date?
 
 **Note:**
 
-TODO Note on “most recent edit date”
+Wikipedia provides a permanent link under the "Tools" tab. A list of permanent
+links is also available under the "View history" tab.
 
 When constructing the reference target in RFCXML, replace the ‘&’ in the
 versioned URL with “&”:
