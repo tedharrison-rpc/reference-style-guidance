@@ -307,7 +307,7 @@ more information.
    [IEEE802.1AX] IEEE, "IEEE Standard for Local and Metropolitan Area Networks
    -- Link Aggregation", IEEE Std 802.1AX-2020, DOI
    10.1109/IEEESTD.2020.9105034, 2020,
-   <https://doi.org/10.1109/IEEESTD.2020.9105034>.
+   <https://ieeexplore.ieee.org/document/9105034>.
 ```
 
 **Note:**
