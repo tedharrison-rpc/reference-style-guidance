@@ -124,10 +124,6 @@ updated as follows:
 
 **Note:**
 
-For more details, see [the
-announcement](https://mailarchive.ietf.org/arch/msg/rfc-interest/F4LLPSsmKKTr3McvyGCQEPiZFhE/)
-on the RFC interest list.
-
 Errata in the [Reported](https://www.rfc-editor.org/errata-definitions/)
 state should not be referenced; they are not considered stable.
 
