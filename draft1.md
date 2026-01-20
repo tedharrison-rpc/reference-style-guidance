@@ -129,10 +129,11 @@ state should not be referenced; they are not considered stable.
 
 **Note on Updating RFCs**
 
-If you are writing an Internet-Draft that updates an RFC, we recommend asking
-your Area Director (AD) to verify any reported errata for that RFC. Also, during
-the RPC intake process, please clarify if any of the verified errata for that
-RFC are being addressed by your document.
+If you are writing an Internet-Draft that updates an RFC, we recommend
+asking your Area Director (AD) or Stream Manager to verify any
+reported errata for that RFC. Also, during the RPC intake process,
+please clarify if any of the verified errata for that RFC are being
+addressed by your document.
 
 ### IETF Proceedings and Workshops
 
