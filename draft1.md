@@ -16,7 +16,7 @@ email to the RPC (rfc-editor@rfc-editor.org).
 staff.rfc-editor.org address or is rfc-editor@rfc-editor.org
 sufficient
 
-## RFCs and Adjacent
+## RFC Series
 
 ### Request for Comments (RFCs)
 
@@ -273,7 +273,7 @@ more information.
 <https://www.iana.org/assignments/ancp>.
 ```
 
-## Standards
+## Other Standards Development Organizations (SDOs)
 
 ### ISO, IEC, and ISO/IEC
 
@@ -470,7 +470,7 @@ specific version? I like W3C way of doing this:
 
 Is this guidance we should include on this page?
 
-## General Web Content ("Web" vs "Internet"? does it matter?)
+## General Web Content
 
 ### Referencing Internet Content: Best Practices and Recommendations
 
