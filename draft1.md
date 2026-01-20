@@ -37,7 +37,12 @@ DOI 10.17487/RFC3080, March 2001, <https://www.rfc-editor.org/info/rfc3080>.
 
 **Note:**
 
-References to RFCs can be added using the [BibXML service](https://bib.ietf.org/).
+References to RFCs can be added using the [BibXML
+service](https://bib.ietf.org/). For example:
+
+```xml
+<xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.1234.xml"/>
+```
 
 ### Internet Drafts (I-Ds)
 
@@ -60,7 +65,12 @@ Progress, Internet-Draft, draft-editorial-rswg-rfc9280-updates-04, 31 July 2025,
 
 **Note:**
 
-References to I-Ds can be added using the [BibXML service](https://bib.ietf.org/).
+References to I-Ds can be added using the [BibXML
+service](https://bib.ietf.org/). For example:
+
+```xml
+<xi:include href="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.rpc-rfc7322bis.xml"/>
+```
 
 ### Subseries - Best Current Practices (BCPs) and Internet Standards (STDs)
 
