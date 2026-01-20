@@ -182,14 +182,14 @@ URL**
 A list of active IETF working groups is availabe on
 [Datatracker](https://datatracker.ietf.org/wg/).
 
-Use the WG’s datatracker URL. Both /charter and /about point to the same
+Use the WG’s Datatracker URL. Both /charter and /about point to the same
 page. Aim for consistency within a document.
 
 Note that, while a WG can have a GitHub repo, and RFCs can point to
 these, the text shouldn’t imply that the repo is the main information
 page for the working group. There should be a link to the WG’s
-datatracker page instead. A link to WG’s repo can be found on their
-datatracker page under “Additional Resources”.
+Datatracker page instead. A link to WG’s repo can be found on their
+Datatracker page under “Additional Resources”.
 
 ### Mailing List Discussions
 
