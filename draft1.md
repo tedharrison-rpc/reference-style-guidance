@@ -1,17 +1,20 @@
 # Reference Style Guidance
 
-This section covers style guidance for references in Internet-Drafts and RFCs.
+This section covers style guidance for references in Internet-Drafts
+and RFCs.
 
-If you need help with references for your document beyond what is covered
-here, please contact the RFC Production Center (RPC) at
+If you need help with references for your document beyond what is
+covered here, please contact the RFC Production Center (RPC) at
 rfc-editor@rfc-editor.org.
 
-If you notice any issues or are aware of any updates to the information on this
-page, please open an [issue on GitHub](https://github.com/ietf/authors.ietf.org/issues) or send an email to the RPC
-(rfc-editor@rfc-editor.org).
+If you notice any issues or are aware of any updates to the
+information on this page, please open an [issue on
+GitHub](https://github.com/ietf/authors.ietf.org/issues) or send an
+email to the RPC (rfc-editor@rfc-editor.org).
 
-(REVIEW NOTE: should we recommend sending an email to my staff.rfc-editor.org
-address or is rfc-editor@rfc-editor.org sufficient
+(REVIEW NOTE: should we recommend sending an email to my
+staff.rfc-editor.org address or is rfc-editor@rfc-editor.org
+sufficient
 
 ## RFCs and Adjacent
 
@@ -20,7 +23,7 @@ address or is rfc-editor@rfc-editor.org sufficient
 **Template**
 
 ``` txt
-[RFCXXXX] Last name, First initial., Ed. (if applicable), “RFC Title”,
+[CITE-TAG] Last name, First initial., Ed. (if applicable), “RFC Title”,
 Sub-series number (if applicable), RFC number, DOI, Date of publication,
 <https://www.rfc-editor.org/info/rfc#>.
 ```
@@ -77,7 +80,7 @@ follows:
 **Template**
 
 ``` txt
-[STDXXX] Internet Standard XXX, <https://www.rfc-editor.org/info/std#>. At the
+[CITE-TAG] Internet Standard XXX, <https://www.rfc-editor.org/info/std#>. At the
 time of writing, this STD comprises the following:
 
 Last name, First initial., Ed. (if applicable), “RFC Title”, STD XXX, RFC
@@ -323,7 +326,7 @@ We recommend pointing to IEEExplore. For example: https://ieeexplore.ieee.org/do
 **Example**
 
 ``` txt
-[TAG] ITU-T, "Functional requirements of software-defined
+[Y3301] ITU-T, "Functional requirements of software-defined
 networking", ITU-T Recommendation Y.3301, September 2016,
 <http://www.itu.int/rec/T-REC-Y.3301-201609-I/en>.
 ```
@@ -350,9 +353,11 @@ www.w3.org/TR/2008/REC-xml-20081126/>.
 
 **Note:**
 
-When referencing W3C documents, consider whether you are referencing the latest
-document in that series or the specific version of the W3C document as it exists
-at the time of publication. From [Section 11.6 of "W3C Manual of Style"](https://www.w3.org/guide/manual-of-style/#Linking) (19 November 2025):
+When referencing W3C documents, consider whether you are referencing
+the latest document in that series or the specific version of the W3C
+document as it exists at the time of publication. From [Section 11.6
+of "W3C Manual of
+Style"](https://www.w3.org/guide/manual-of-style/#Linking) (19 November 2025):
 
 > Unless intentionally referring to the latest document in a series, always refer
 > to specific W3C documents by using the "this version" URI.
@@ -401,7 +406,9 @@ Standards"](https://whatwg.org/faq#living-standard) which are regularly updated
 and changed, we recommend adding a URL to this commit snapshot in the reference
 in an annotation (see example and template).
 
-The URL for the commit snapshot can be found by clicking the "Snapshot as of this commit" link provided at the main URL for a Living Standard.
+The URL for the commit snapshot can be found by clicking the "Snapshot
+as of this commit" link provided at the main URL for a Living
+Standard.
 
 For more information on WHATWG commit snapshots see:
 https://whatwg.org/faq#change-at-any-time
@@ -436,7 +443,8 @@ that version. For example:
 
 ### Unicode Consortium
 
-The following guidance is adapted from the [Unicode Consortium's reference guidance](https://www.unicode.org/versions/#References).
+The following guidance is adapted from the [Unicode Consortium's
+reference guidance](https://www.unicode.org/versions/#References).
 
 #### Referencing the latest version of the Unicode Standard (versionless)
 
