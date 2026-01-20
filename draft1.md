@@ -318,8 +318,7 @@ We recommend pointing to IEEExplore. For example: https://ieeexplore.ieee.org/do
 **Template**
 
 ``` txt
-[ITU-T] ITU-T, "Title", ITU-T Recommendation #
-, Date, <URL>.
+[ITU-T] ITU-T, "Title", ITU-T Recommendation #, Date, <URL>.
 ```
 
 **Example**
