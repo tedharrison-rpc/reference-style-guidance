@@ -41,7 +41,7 @@ References to RFCs can be added using the [BibXML service](https://bib.ietf.org/
 **Template**
 
 ``` txt
-[SYMBOLIC-TAG] Last name, First initial., Ed. (if applicable) and
+[CITE-TAG] Last name, First initial., Ed. (if applicable) and
 First initial.  Last name, Ed. (if applicable), "I-D Title", Work in
 Progress, Internet-Draft, draft-string-NN, Day Month Year,
 <https://datatracker.ietf.org/doc/html/draft-something>.
@@ -108,7 +108,7 @@ updated as follows:
 **Template**
 
 ``` txt
-[ErrNumber] RFC Errata, Erratum ID number, RFC number, <URI>.
+[CITE-TAG] RFC Errata, Erratum ID number, RFC number, <URI>.
 ```
 
 **Example**
@@ -197,7 +197,7 @@ datatracker page under “Additional Resources”.
 **Template**
 
 ``` txt
-[CITE-TAG] Sender, A., "Subject: Subject line", message to the
+[CITE-TAG] Sender Name, "Subject: Subject line", message to the
 listname mailing list, DD Month YYYY, <URL>.
 ```
 
@@ -247,7 +247,7 @@ more information.
 **Template**
 
 ``` txt
-[NAME] IANA, “Registry Name”, <URL>.
+[CITE-TAG] IANA, “Registry Name”, <URL>.
 ```
 
 **Example**
@@ -261,7 +261,7 @@ more information.
 **Template**
 
 ``` txt
-[NAME] IANA, “Registry Group”, <URL>.
+[CITE-TAG] IANA, “Registry Group”, <URL>.
 ```
 
 **Example**
@@ -278,8 +278,7 @@ more information.
 **Template**
 
 ``` txt
-[CITE-TAG] Organization (i.e., "ISO", "IEC", or "ISO/IEC", "Title of the
-standard", Standard Series number, Date, <URL>.
+[CITE-TAG] Organization, "Title", Standard Series number, Date, <URL>.
 ```
 
 **Example**
@@ -297,7 +296,7 @@ identification tag", ISO/IEC 19770-2:2015, October 2015,
 **Template**
 
 ``` txt
-[IEEE-STD] IEEE, "Title", IEEE Std #, DOI, Year, <URL or DOI URL>.
+[CITE-TAG] IEEE, "Title", IEEE Std #, DOI, Year, <URL or DOI URL>.
 ```
 
 **Example**
@@ -318,7 +317,7 @@ We recommend pointing to IEEExplore. For example: https://ieeexplore.ieee.org/do
 **Template**
 
 ``` txt
-[ITU-T] ITU-T, "Title", ITU-T Recommendation #, Date, <URL>.
+[CITE-TAG] ITU-T, "Title", ITU-T Recommendation #, Date, <URL>.
 ```
 
 **Example**
@@ -336,7 +335,7 @@ networking", ITU-T Recommendation Y.3301, September 2016,
 **Template**
 
 ```txt
-[CITE-TAG] Author(s), "Title of W3C Recommendation", W3C Recommendation, Date of
+[CITE-TAG] Author(s), "Title", W3C Recommendation, Date of
 Publication, <URL>.
 ```
 
@@ -377,7 +376,7 @@ is, include the "This version" URL as the main reference target and then add the
 **Template**
 
 ``` txt
-[CITE-TAG] WHATWG, "Name of Living Standard", WHATWG Living Standard,
+[CITE-TAG] WHATWG, "Title", WHATWG Living Standard,
 <URL>.
 
 Commit snapshot: <Commit Snapshot URL>
@@ -412,7 +411,7 @@ https://whatwg.org/faq#change-at-any-time
 **Template**
 
 ```txt
-[CITE-TAG] 3GPP, "Title of Spec", 3GPP TR/TS TR or TS Number, <URL>.
+[CITE-TAG] 3GPP, "Title", 3GPP TR/TS TR or TS Number, <URL>.
 ```
 
 **Example**
@@ -545,7 +544,7 @@ Any other considerations?
 **Template**
 
 ``` txt
-[SYMBOLIC-TAG] Author (if available), "Title (if available)", Date (if available), <URL>.
+[CITE-TAG] Author (if available), "Title (if available)", Date (if available), <URL>.
 ```
 
 **Example**
@@ -579,7 +578,7 @@ REVIEW should we include the archived date?
 **Template**
 
 ``` txt
-[CITE-TAG] Wikipedia, "Title of the Article", Date of most recent edit, <Dated URL>.
+[CITE-TAG] Wikipedia, "Title", Date of most recent edit, <Dated URL>.
 ```
 
 **Example**
@@ -610,7 +609,7 @@ target="https://en.wikipedia.org/w/index.php?title=Magnet_URI_scheme&amp;oldid=5
 **Template**
 
 ``` txt
-[JOURNAL-ART] Author, A.B., "Title of Paper", Name of Journal, vol. # (if
+[CITE-TAG] Author, "Title", Name of Journal, vol. # (if
 applicable), no. # (if applicable), Date, pp. #, DOI (if applicable), <URL>.
 ```
 
@@ -637,7 +636,7 @@ Issue 1 = no. 1
 **Template**
 
 ``` txt
-[CONF-PAPER] Author, A.B., "Title of Paper", Name of Conference, Date, pp. #,
+[CITE-TAG] Author, "Title", Name of Conference, Date, pp. #,
 DOI (if applicable), <URL>.
 ```
 
@@ -652,7 +651,7 @@ TODO
 **Template**
 
 ``` txt
-[CITE-TAG] Author, A., "Title", Name of periodical / publication, Date, <URL>.
+[CITE-TAG] Author, "Title", Name of periodical / publication, Date, <URL>.
 ```
 
 **Example**
@@ -741,7 +740,7 @@ Format of reference entries:
 **Template**
 
 ``` txt
-[NIST_FIPS] NIST, “Title of FIPS Publication”, NIST FIPS Number, DOI, Date of
+[CITE-TAG] NIST, “Title of FIPS Publication”, NIST FIPS Number, DOI, Date of
 Publication, <URL>.
 ```
 
@@ -762,7 +761,7 @@ Publication, <URL>.
 TODO add NIST as publisher?
 
 ``` txt
-[NIST_SP] Author(s), “Title of SP”, NIST SP Number, DOI, Date of Publication, <URL>.
+[CITE-TAG] Author(s), “Title of SP”, NIST SP Number, DOI, Date of Publication, <URL>.
 ```
 
 **Example**
