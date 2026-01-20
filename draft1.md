@@ -20,7 +20,7 @@ sufficient
 
 ### Request for Comments (RFCs)
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Last name, First initial., Ed. (if applicable), “RFC Title”,
@@ -41,7 +41,7 @@ References to RFCs can be added using the [BibXML service](https://bib.ietf.org/
 
 ### Internet Drafts (I-Ds)
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Last name, First initial., Ed. (if applicable) and
@@ -77,7 +77,7 @@ follows:
 
 > See RFC 3552 \[BCP72\].
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Internet Standard XXX, <https://www.rfc-editor.org/info/std#>. At the
@@ -108,7 +108,7 @@ The format for errata references described in [Section 4.8.6.5 of RFC
 7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.5) is
 updated as follows:
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] RFC Errata, Erratum ID number, RFC number, <URI>.
@@ -139,7 +139,7 @@ RFC are being addressed by your document.
 
 ### IETF Proceedings and Workshops
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Presenter Last Name, First Initial (if applicable),
@@ -165,7 +165,7 @@ https://datatracker.ietf.org/wg/quic/meetings/
 
 ### Working Group pages on Datatracker
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] IETF, "Working Group Name (abbreviation)", <URL>.
@@ -197,7 +197,7 @@ datatracker page under “Additional Resources”.
 
 #### Specific Message
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Sender Name, "Subject: Subject line", message to the
@@ -223,7 +223,7 @@ lists) have not been valid since 2005.
 
 #### Entire Mailing List
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Name of mail archive, "Name of Mailing List" Archive, <URL>.
@@ -247,7 +247,7 @@ This guidance was developed in coordination with IANA. See [“Guidance
 for RFC Authors”](https://www.iana.org/help/protocol-registration) for
 more information.
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] IANA, “Registry Name”, <URL>.
@@ -261,7 +261,7 @@ more information.
 
 ### IANA Registry Group
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] IANA, “Registry Group”, <URL>.
@@ -278,7 +278,7 @@ more information.
 
 ### ISO, IEC, and ISO/IEC
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Organization, "Title", Standard Series number, Date, <URL>.
@@ -296,7 +296,7 @@ identification tag", ISO/IEC 19770-2:2015, October 2015,
 
 ### IEEE Standards
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] IEEE, "Title", IEEE Std #, DOI, Year, <URL or DOI URL>.
@@ -317,7 +317,7 @@ We recommend pointing to IEEExplore. For example: https://ieeexplore.ieee.org/do
 
 ### ITU-T Recommendations
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] ITU-T, "Title", ITU-T Recommendation #, Date, <URL>.
@@ -335,7 +335,7 @@ networking", ITU-T Recommendation Y.3301, September 2016,
 
 ### W3C
 
-**Template**
+**Format**
 
 ```txt
 [CITE-TAG] Author(s), "Title", W3C Recommendation, Date of
@@ -378,7 +378,7 @@ is, include the "This version" URL as the main reference target and then add the
 
 ### WHATWG
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] WHATWG, "Title", WHATWG Living Standard,
@@ -402,9 +402,9 @@ Commit snapshot:
 WHATWG provides ["commit
 snapshots"](https://urlpattern.spec.whatwg.org/commit-snapshots/d13ebead18003059a83ca4a25240e5cafc066c4c/)
 for their standards. Since WHATWG publishes ["Living
-Standards"](https://whatwg.org/faq#living-standard) which are regularly updated
-and changed, we recommend adding a URL to this commit snapshot in the reference
-in an annotation (see example and template).
+Standards"](https://whatwg.org/faq#living-standard) which are
+regularly updated and changed, we recommend adding a URL to this
+commit snapshot in the reference in an annotation.
 
 The URL for the commit snapshot can be found by clicking the "Snapshot
 as of this commit" link provided at the main URL for a Living
@@ -415,7 +415,7 @@ https://whatwg.org/faq#change-at-any-time
 
 ### 3GPP
 
-**Template**
+**Format**
 
 ```txt
 [CITE-TAG] 3GPP, "Title", 3GPP TR/TS TR or TS Number, <URL>.
@@ -549,7 +549,7 @@ Any other considerations?
 
 ### Websites
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Author (if available), "Title (if available)", Date (if available), <URL>.
@@ -583,7 +583,7 @@ REVIEW should we include the archived date?
 
 ### Wikipedia Articles
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Wikipedia, "Title", Date of most recent edit, <Dated URL>.
@@ -614,7 +614,7 @@ target="https://en.wikipedia.org/w/index.php?title=Magnet_URI_scheme&amp;oldid=5
 
 ### Journal Articles
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Author, "Title", Name of Journal, vol. # (if
@@ -641,7 +641,7 @@ Issue 1 = no. 1
 
 ### Conference Papers
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Author, "Title", Name of Conference, Date, pp. #,
@@ -656,7 +656,7 @@ TODO
 
 ### Online Periodical (Newspaper, Magazine, etc.)
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Author, "Title", Name of periodical / publication, Date, <URL>.
@@ -675,7 +675,7 @@ TODO
 
 ### Dissertations
 
-**Template**
+**Format**
 
 ```txt
 [CITE-TAG] Author, "Title", MA/MS/Ph.D. Dissertation, Awarding
@@ -699,7 +699,7 @@ TODO just noticed this URL no longer resolves to a pdf. Now states "Forbidden - 
 
 ### Repositories
 
-**Template**
+**Format**
 
 ```txt
 [CITE-TAG] "Name or description of repository", commit hash, Date, <URL>.
@@ -724,7 +724,7 @@ Format of reference entries:
 
 ### Files within a repository
 
-**Template**
+**Format**
 
 ```txt
 [CITE-TAG] "filename", commit hash, date, <URL>.
@@ -745,7 +745,7 @@ Format of reference entries:
 
 #### NIST Federal Information Processing Standards Publications (FIPS)
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] NIST, “Title of FIPS Publication”, NIST FIPS Number, DOI, Date of
@@ -764,7 +764,7 @@ Publication, <URL>.
 
 #### NIST Special Publications (SPs)
 
-**Template**
+**Format**
 
 TODO add NIST as publisher?
 
@@ -785,7 +785,7 @@ Proxy Models for Cloud-Native Applications”, NIST SP 800-233, DOI
 
 ### ETSI
 
-**Template**
+**Format**
 
 ```txt
 [CITE-TAG] ETSI, "Title", Document
@@ -810,7 +810,7 @@ website](https://www.etsi.org/standards/types-of-standards).
 
 ### Cryptology ePrint Archive Papers
 
-**Template**
+**Format**
 
 ``` txt
 [CITE-TAG] Author(s), "Title", Cryptology ePrint Archive, Paper #, Date
@@ -829,7 +829,7 @@ Standardisation", Cryptology ePrint Archive, Paper 2011/211, 2011,
 
 ### arXiv Papers
 
-**Template**
+**Format**
 
 ```txt
 [CITE-TAG] Author(s), "Title", arXiv#, DOI (if applicable), Date,
