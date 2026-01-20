@@ -546,7 +546,7 @@ Any other considerations?
 **Example**
 
 ``` txt
-   [RFC-Editor] "RFC-Editor", <https://https://www.rfc-editor.org/>.
+   [RFC-Editor] "RFC Editor", <https://https://www.rfc-editor.org/>.
 ```
 
 **Note:**
