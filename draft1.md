@@ -325,7 +325,7 @@ We recommend pointing to IEEExplore. For example: https://ieeexplore.ieee.org/do
 **Example**
 
 ``` txt
-[TAG]   ITU-T, "Functional requirements of software-defined
+[TAG] ITU-T, "Functional requirements of software-defined
 networking", ITU-T Recommendation Y.3301, September 2016,
 <http://www.itu.int/rec/T-REC-Y.3301-201609-I/en>.
 ```
@@ -344,10 +344,10 @@ Publication, <URL>.
 **Example**
 
 ``` txt
- [W3C.XML1.0] Bray, T., Ed., Paoli, J., Ed., Sperberg-McQueen, C.M., Ed., Maler,
- E., Ed., and F. Yergeau, Ed., "Extensible Markup Language (XML) 1.0 (Fifth
- Edition)", W3C Recommendation, 26 November 2008, <https://
- www.w3.org/TR/2008/REC-xml-20081126/>.
+[W3C.XML1.0] Bray, T., Ed., Paoli, J., Ed., Sperberg-McQueen, C.M., Ed., Maler,
+E., Ed., and F. Yergeau, Ed., "Extensible Markup Language (XML) 1.0 (Fifth
+Edition)", W3C Recommendation, 26 November 2008, <https://
+www.w3.org/TR/2008/REC-xml-20081126/>.
 ```
 
 **Note:**
