@@ -161,7 +161,7 @@ Meeting materials can also be found on each working group’s meeting page
 on Datatracker. For example,
 https://datatracker.ietf.org/wg/quic/meetings/
 
-### Working Group pages on Datatracker
+### Working Group (WG) pages on Datatracker
 
 **Format**
 
@@ -176,10 +176,10 @@ https://datatracker.ietf.org/wg/quic/meetings/
 (cdni)",<https://datatracker.ietf.org/wg/cdni/charter/>.
 ```
 
-**Note: Finding a working group’s Datatracker page and the appropriate
+**Note: Finding a Working Group’s Datatracker page and the appropriate
 URL**
 
-A list of active IETF working groups is availabe on
+A list of active IETF Working Groups is availabe on
 [Datatracker](https://datatracker.ietf.org/wg/).
 
 Use the WG’s Datatracker URL. Both /charter and /about point to the same
@@ -188,7 +188,7 @@ page. Aim for consistency within a document.
 Note that, while a WG can have a GitHub repo, and RFCs can point to
 these, the text shouldn’t imply that the repo is the main information
 page for the working group. There should be a link to the WG’s
-Datatracker page instead. A link to WG’s repo can be found on their
+Datatracker page instead. A link to a  WG’s repo can be found on their
 Datatracker page under “Additional Resources”.
 
 ### Mailing List Discussions
