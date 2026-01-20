@@ -67,13 +67,13 @@ References to I-Ds can be added using the [BibXML service](https://bib.ietf.org/
 This guidance overrides [Section 4.8.6.3 of RFC
 7322](https://www.rfc-editor.org/rfc/rfc7322#section-4.8.6.3).
 
-Internet Standards (STDs) and Best Current Practices (BCPs) may consist
-of a single RFC or multiple RFCs. When an STD or BCP is referenced, the
-reference entry should include ALL of the RFCs comprising that
-sub-series. The authors should refer to specific RFC numbers as part of
-the text (not as citations) and cite the sub-series number. The URI to
-the STD or BCP info page is to be included. The text should appear as
-follows:
+Internet Standards (STDs) and Best Current Practices (BCPs) may
+consist of a single RFC or multiple RFCs. When an STD or BCP as a
+whole is referenced, the reference entry should include ALL of the
+RFCs comprising that sub-series. The authors should refer to specific
+RFC numbers as part of the text (not as citations) and cite the
+sub-series number. The URI to the STD or BCP info page is to be
+included. The text should appear as follows:
 
 > See RFC 3552 \[BCP72\].
 
