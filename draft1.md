@@ -212,8 +212,9 @@ https://mailarchive.ietf.org/arch/msg/rfc-interest/czuWiLuFOiuXLmRw3Z6Syt9QXM4/.
 
 **Note:**
 
-For a message on a IETF mailing list, use mailarchive.ietf.org URLs. To
-find a WG mailing list, check https://datatracker.ietf.org/wg/ and/or
+For a message on an IETF mailing list, use mailarchive.ietf.org
+URLs. To find a WG mailing list, check
+https://datatracker.ietf.org/wg/ and/or
 https://datatracker.ietf.org/group/concluded/.
 
 Note: mailing list addresses of the format “@lists.ietf.org” (mostly WG
