@@ -104,7 +104,8 @@ References to subseries can be added using the [BibXML service](https://bib.ietf
 
 ### Errata
 
-The format for errata references described in [Section 4.8.6.5 of RFC
+The format for references to errata reports described in [Section
+4.8.6.5 of RFC
 7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.5) is
 updated as follows:
 
