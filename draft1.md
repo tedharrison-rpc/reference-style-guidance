@@ -12,10 +12,6 @@ information on this page, please open an [issue on
 GitHub](https://github.com/ietf/authors.ietf.org/issues) or send an
 email to the RPC (rfc-editor@rfc-editor.org).
 
-(REVIEW NOTE: should we recommend sending an email to my
-staff.rfc-editor.org address or is rfc-editor@rfc-editor.org
-sufficient
-
 ## RFC Series
 
 ### Request for Comments (RFCs)
