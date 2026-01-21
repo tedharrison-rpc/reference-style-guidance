@@ -3,9 +3,9 @@
 This section covers style guidance for reference entries in
 Internet-Drafts and RFCs.
 
-If you have a question about how to format references with references
-that is not covered here, please contact the RFC Production Center
-(RPC) at rfc-editor@rfc-editor.org.
+If you have a question about how to format references that is not
+covered here, please contact the RFC Production Center (RPC) at
+rfc-editor@rfc-editor.org.
 
 If you notice any issues or are aware of any updates to the
 information on this page, please open an [issue on
