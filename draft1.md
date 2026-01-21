@@ -341,11 +341,21 @@ networking", ITU-T Recommendation Y.3301, September 2016,
 
 ### W3C
 
+W3C provides two URLs for their documents: 
+
+- A "This version" URL. For example: <https://www.w3.org/TR/2008/REC-xml-20081126>.
+- A "Latest version" URL. For example: <https://www.w3.org/TR/xml/>.
+
+We recommend including both URLs in reference entries to W3C documents
+using the following format:
+
 **Format**
 
 ```txt
 [CITE-TAG] Author(s), "Title", W3C Recommendation, Date of
 Publication, <URL>.
+
+Latest version available at <https://www.w3.org/TR/xml/>.
 ```
 
 **Example**
@@ -355,34 +365,34 @@ Publication, <URL>.
 E., Ed., and F. Yergeau, Ed., "Extensible Markup Language (XML) 1.0 (Fifth
 Edition)", W3C Recommendation, 26 November 2008, <https://
 www.w3.org/TR/2008/REC-xml-20081126/>.
+
+Latest version available at <https://www.w3.org/TR/xml/>.
 ```
 
 **Note:**
 
-When referencing W3C documents, consider whether you are referencing
-the latest document in that series or the specific version of the W3C
-document as it exists at the time of publication. From [Section 11.6
-of "W3C Manual of
-Style"](https://www.w3.org/guide/manual-of-style/#Linking) (19 November 2025):
+The "latest version" annotation can be included in a reference in
+RFCXML like so:
 
-> Unless intentionally referring to the latest document in a series, always refer
-> to specific W3C documents by using the "this version" URI.
-
-The example provided previously in this section uses the "This version" URL
-provided by W3C (https://www.w3.org/TR/2008/REC-xml-20081126/).
-
-REVIEW NOTE:
-guidance is a little confusing from W3C;
-https://www.w3.org/guide/manual-of-style/#ref-section recommends adding a
-"latest version" URL
-
-Should we also recommend adding this? A previous version of our guidance placed
-the latest version in an annotation element?  Perhaps that could be the guidance
-for most reference types with a "This version" and "Latest version" URL? That
-is, include the "This version" URL as the main reference target and then add the
-"Latest version" URL in the annotation.
+```xml
+<annotation>Latest version available at <eref target="URL" brackets="angle"/>.</annotation>
+```
 
 ### WHATWG
+
+WHATWG provides ["commit
+snapshots"](https://urlpattern.spec.whatwg.org/commit-snapshots/d13ebead18003059a83ca4a25240e5cafc066c4c/)
+for their standards. Since WHATWG publishes ["Living
+Standards"](https://whatwg.org/faq#living-standard) which are
+regularly updated and changed, we recommend adding a URL to this
+commit snapshot in the reference in an annotation.
+
+The URL for the commit snapshot can be found by clicking the "Snapshot
+as of this commit" link provided at the main URL for a Living
+Standard.
+
+For more information on WHATWG commit snapshots see:
+<https://whatwg.org/faq#change-at-any-time>.
 
 **Format**
 
@@ -403,21 +413,19 @@ Commit snapshot:
 <https://urlpattern.spec.whatwg.org/commit-snapshots/d13ebead18003059a83ca4a25240e5cafc066c4c/>
 ```
 
-**Note:**
+**Note on Anchor Permanence in WHATWG Living Standards**
 
-WHATWG provides ["commit
-snapshots"](https://urlpattern.spec.whatwg.org/commit-snapshots/d13ebead18003059a83ca4a25240e5cafc066c4c/)
-for their standards. Since WHATWG publishes ["Living
-Standards"](https://whatwg.org/faq#living-standard) which are
-regularly updated and changed, we recommend adding a URL to this
-commit snapshot in the reference in an annotation.
+[WHATWG guidance on the permanence of
+anchors](https://whatwg.org/working-mode#anchors) in WHATWG Living
+Standards notes:
 
-The URL for the commit snapshot can be found by clicking the "Snapshot
-as of this commit" link provided at the main URL for a Living
-Standard.
+> Since Living Standards are continually evolving, the set of anchors in
+> a document is not static, and some anchors could disappear over time.
 
-For more information on WHATWG commit snapshots see:
-https://whatwg.org/faq#change-at-any-time
+WHATWG recommends filing an issue on GitHub if another standards
+organization "wishes to ensure an anchor is permanently available in
+the canonical Living Standard". For more information see:
+<https://whatwg.org/working-mode#anchors>.
 
 ### 3GPP
 
