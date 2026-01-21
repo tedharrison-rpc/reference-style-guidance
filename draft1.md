@@ -812,7 +812,7 @@ A list of the types of standards, specifications, and reports produced by ETSI
 is available on [their
 website](https://www.etsi.org/standards/types-of-standards).
 
-## Specific
+## Archives
 
 ### Cryptology ePrint Archive Papers
 
