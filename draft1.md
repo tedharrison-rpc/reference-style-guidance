@@ -139,7 +139,7 @@ updated as follows:
 <https://www.rfc-editor.org/errata/eid3607>.
 ```
 
-**Note:**
+**Referencing "Reported" Errata:**
 
 Errata in the [Reported](https://www.rfc-editor.org/errata-definitions/)
 state should not be referenced; they are not considered stable.
@@ -470,7 +470,7 @@ TS 23.501,
 <https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3144>.
 ```
 
-**Note:**
+**Referencing Specific Versions and/or Releases of 3GPP Specifications**
 
 If referencing a specific version from a specific release by 3GPP, include the
 version and release number, the date of publication, and the URL pointing to
