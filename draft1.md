@@ -14,7 +14,7 @@ email to the RPC (rfc-editor@rfc-editor.org).
 
 ## RFC Series
 
-### Request for Comments (RFCs)
+### Request for Comments (RFC)
 
 **Format**
 
@@ -40,7 +40,7 @@ service](https://bib.ietf.org/). For example:
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.1234.xml"/>
 ```
 
-### Internet Drafts (I-Ds)
+### Internet Draft (I-D)
 
 **Format**
 
