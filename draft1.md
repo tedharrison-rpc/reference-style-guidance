@@ -474,17 +474,6 @@ reference guidance](https://www.unicode.org/versions/#References).
 17.0.0, 2025, <https://www.unicode.org/versions/Unicode17.0.0/>.
 ```
 
-**Note:**
-
-REVIEW:
-How to phrase when to reference/cite the latest version vs. a
-specific version? I like W3C way of doing this:
-
-> Unless intentionally referring to the latest document in a series, always refer
-> to specific W3C documents by using the "this version" URI.
-
-Is this guidance we should include on this page?
-
 ## General Web Content
 
 ### Referencing Internet Content: Best Practices and Recommendations
