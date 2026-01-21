@@ -31,10 +31,12 @@ Subseries number (if applicable), RFC number, DOI, Date of publication,
 DOI 10.17487/RFC3080, March 2001, <https://www.rfc-editor.org/info/rfc3080>.
 ```
 
-**Note:**
+**Using the BibXML Service for RFCs**
 
-References to RFCs can be added using the [BibXML
-service](https://bib.ietf.org/). For example:
+Reference entries for RFCs can be added to a document using the
+[BibXML
+service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/). For
+example:
 
 ```xml
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.1234.xml"/>
@@ -59,10 +61,12 @@ Progress, Internet-Draft, draft-editorial-rswg-rfc9280-updates-04, 31 July 2025,
 <https://datatracker.ietf.org/doc/draft-editorial-rswg-rfc9280-updates/>.
 ```
 
-**Note:**
+**Using the BibXML Service for I-Ds**
 
-References to I-Ds can be added using the [BibXML
-service](https://bib.ietf.org/). For example:
+Reference entries for I-Ds can be added to a document using the
+[BibXML
+service](https://bib.ietf.org/indexed-sources/relaton-data-ids/). For
+example:
 
 ```xml
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.rpc-rfc7322bis.xml"/>
@@ -104,9 +108,16 @@ Cerf, V., “ASCII format for network interchange”, STD 80, RFC 20, DOI
 10.17487/RFC0020, October 1969, <https://www.rfc-editor.org/info/rfc20>:
 ```
 
-**Note:**
+**Using the BibXML Service for Subseries:**
 
-References to subseries can be added using the [BibXML service](https://bib.ietf.org/).
+Reference entries for subseries can be added to a document using the
+[BibXML
+service](https://bib.ietf.org/indexed-sources/relaton-data-rfcsubseries/). For
+example:
+
+```xml
+<xi:include href="https://bib.ietf.org/public/rfc/bibxml9/reference.BCP.0237.xml"/>
+```
 
 ### Errata
 
@@ -224,7 +235,7 @@ URLs. To find a WG mailing list, check
 https://datatracker.ietf.org/wg/ and/or
 https://datatracker.ietf.org/group/concluded/.
 
-Note: mailing list addresses of the format “@lists.ietf.org” (mostly WG
+Mailing list addresses of the format “@lists.ietf.org” (mostly WG
 lists) have not been valid since 2005.
 
 ### Entire Mailing List
@@ -280,6 +291,17 @@ more information.
 <https://www.iana.org/assignments/ancp>.
 ```
 
+### Using the BibXML Service for IANA Reference Entries
+
+Reference entries for IANA registries and registry groups can be added
+to a document using the [BibXML
+Service](https://bib.ietf.org/indexed-sources/relaton-data-iana/). For
+example:
+
+```xml
+<xi:include href="https://bib.ietf.org/public/rfc/bibxml8/reference.IANA.ancp_message-types.xml"/>
+```
+
 ## Other Standards Development Organizations (SDOs)
 
 ### ISO, IEC, and ISO/IEC
@@ -319,7 +341,9 @@ identification tag", ISO/IEC 19770-2:2015, October 2015,
 
 **Note:**
 
-We recommend pointing to IEEExplore. For example: <https://ieeexplore.ieee.org/document/9363693>.
+When creating reference entries for IEEE Standards, we recommend using
+URLs for IEEExplore. For example:
+<https://ieeexplore.ieee.org/document/9363693>.
 
 ### ITU-T Recommendations
 
