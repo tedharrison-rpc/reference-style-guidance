@@ -656,7 +656,13 @@ DOI (if applicable), <URL>.
 
 **Example**
 
-TODO
+```txt
+[MiningPsQs] Heninger, N., Durumeric, Z., Wustrow, E., and
+J. A. Halderman, "Mining Your Ps and Qs: Detection of Widespread Weak
+Keys inNetwork Devices", 21st USENIX Security Symposium (USENIX
+Security 12), August 2012,
+<https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/heninger>.
+```
 
 **Note:**
 
