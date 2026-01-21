@@ -422,10 +422,13 @@ Standards notes:
 > Since Living Standards are continually evolving, the set of anchors in
 > a document is not static, and some anchors could disappear over time.
 
-WHATWG recommends filing an issue on GitHub if another standards
-organization "wishes to ensure an anchor is permanently available in
-the canonical Living Standard". For more information see:
-<https://whatwg.org/working-mode#anchors>.
+WHATWG recommends filing an issue on an Living Standard's GitHub if
+another standards organization "wishes to ensure an anchor is
+permanently available in the canonical Living Standard". For example:
+<https://github.com/whatwg/html/issues/11646>.
+
+Please inform the RPC during the intake process if you are waiting on
+WHATWG to approve making anchors in a Living Standard permanent.
 
 ### 3GPP
 
