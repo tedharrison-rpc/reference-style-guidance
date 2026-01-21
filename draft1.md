@@ -146,7 +146,7 @@ addressed by your document.
 **Format**
 
 ``` txt
-[CITE-TAG] Presenter Last Name, First Initial (if applicable),
+[CITE-TAG] Presenter Last Name, First initial.,
 "Presentation Title", IETF # Proceedings, Month Year, <URL>.
 ```
 
