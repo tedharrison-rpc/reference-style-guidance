@@ -650,7 +650,7 @@ Issue 1 = no. 1
 **Format**
 
 ``` txt
-[CITE-TAG] Author, "Title", Name of Conference, Date, pp. #,
+[CITE-TAG] Author(s), "Title", Name of Conference, Date, pp. #,
 DOI (if applicable), <URL>.
 ```
 
@@ -665,13 +665,13 @@ TODO
 **Format**
 
 ``` txt
-[CITE-TAG] Author, "Title", Name of periodical / publication, Date, <URL>.
+[CITE-TAG] Author(s), "Title", Name of periodical / publication, Date, <URL>.
 ```
 
 **Example**
 
 ``` txt
-[Wired-IETF]   Borsook, P., "How Anarchy Works", Wired, October 1995,
+[Wired-IETF] Borsook, P., "How Anarchy Works", Wired, October 1995,
 <https://www.wired.com/1995/10/ietf/>.
 ```
 
