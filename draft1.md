@@ -20,7 +20,7 @@ email to the RPC (rfc-editor@rfc-editor.org).
 
 ``` txt
 [CITE-TAG] Last name, First initial., Ed. (if applicable), “RFC Title”,
-Sub-series number (if applicable), RFC number, DOI, Date of publication,
+Subseries number (if applicable), RFC number, DOI, Date of publication,
 <https://www.rfc-editor.org/info/rfc#>.
 ```
 
@@ -76,10 +76,10 @@ This guidance overrides [Section 4.8.6.3 of RFC
 Internet Standards (STDs) and Best Current Practices (BCPs) may
 consist of a single RFC or multiple RFCs. When an STD or BCP as a
 whole is referenced, the reference entry should include ALL of the
-RFCs comprising that sub-series. The authors should refer to specific
-RFC numbers as part of the text (not as citations) and cite the
-sub-series number. The URI to the STD or BCP info page is to be
-included. The text should appear as follows:
+RFCs comprising that subseries at the time of writing. The authors
+should refer to specific RFC numbers as part of the text (not as
+citations) and cite the subseries number. The URI to the STD or BCP
+info page is to be included. The text should appear as follows:
 
 > See RFC 3552 \[BCP72\].
 
@@ -133,13 +133,14 @@ updated as follows:
 Errata in the [Reported](https://www.rfc-editor.org/errata-definitions/)
 state should not be referenced; they are not considered stable.
 
-**Note on Updating RFCs**
+**Note on Updating or Obsoleting RFCs**
 
-If you are writing an Internet-Draft that updates an RFC, we recommend
-asking your Area Director (AD) or Stream Manager to verify any
-reported errata for that RFC. Also, during the RPC intake process,
-please clarify if any of the verified errata for that RFC are being
-addressed by your document.
+If you are writing an Internet-Draft that has an "Updates" or
+"Obsoletes" relationship to a published RFC, we recommend asking your
+Area Director (AD) or Stream Manager to verify any reported errata for
+that RFC. Also, during the RPC intake process, please clarify if any
+of the verified errata for that RFC are being addressed by your
+document.
 
 ### IETF Proceedings and Workshops
 
