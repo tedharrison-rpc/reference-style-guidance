@@ -319,7 +319,7 @@ identification tag", ISO/IEC 19770-2:2015, October 2015,
 
 **Note:**
 
-We recommend pointing to IEEExplore. For example: https://ieeexplore.ieee.org/document/9363693
+We recommend pointing to IEEExplore. For example: <https://ieeexplore.ieee.org/document/9363693>.
 
 ### ITU-T Recommendations
 
