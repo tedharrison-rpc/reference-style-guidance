@@ -142,7 +142,7 @@ that RFC. Also, during the RPC intake process, please clarify if any
 of the verified errata for that RFC are being addressed by your
 document.
 
-### IETF Proceedings and Workshops
+## IETF Proceedings and Workshops
 
 **Format**
 
@@ -168,7 +168,7 @@ Meeting materials can also be found on each working group’s meeting page
 on Datatracker. For example,
 https://datatracker.ietf.org/wg/quic/meetings/
 
-### Working Group (WG) pages on Datatracker
+## Working Group (WG) pages on Datatracker
 
 **Format**
 
@@ -198,9 +198,9 @@ page for the working group. There should be a link to the WG’s
 Datatracker page instead. A link to a  WG’s repo can be found on their
 Datatracker page under “Additional Resources”.
 
-### Mailing List Discussions
+## Mailing List Discussions
 
-#### Specific Message
+### Specific Message in a Mailing List Discussion
 
 **Format**
 
@@ -227,7 +227,7 @@ https://datatracker.ietf.org/group/concluded/.
 Note: mailing list addresses of the format “@lists.ietf.org” (mostly WG
 lists) have not been valid since 2005.
 
-#### Entire Mailing List
+### Entire Mailing List
 
 **Format**
 
