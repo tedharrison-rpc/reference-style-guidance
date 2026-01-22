@@ -800,8 +800,6 @@ Publication, <URL>.
 
 **Format**
 
-TODO add NIST as publisher?
-
 ``` txt
 [CITE-TAG] Author(s), “Title of SP”, NIST SP Number, DOI, Date of Publication, <URL>.
 ```
