@@ -1,7 +1,8 @@
 # Reference Style Guidance
 
 This section covers style guidance for reference entries in
-Internet-Drafts and RFCs.
+Internet-Drafts and RFCs and is the primary source of reference style
+guidance for the RFC series.
 
 If you have a question about how to format references that is not
 covered here, please contact the RFC Production Center (RPC) at
@@ -144,14 +145,14 @@ updated as follows:
 Errata in the [Reported](https://www.rfc-editor.org/errata-definitions/)
 state should not be referenced; they are not considered stable.
 
-**Note on Updating or Obsoleting RFCs**
+**Note on Updating or Obsoleting RFCs with Errata**
 
 If you are writing an Internet-Draft that has an "Updates" or
 "Obsoletes" relationship to a published RFC, we recommend asking your
 Area Director (AD) or Stream Manager to verify any reported errata for
-that RFC. Also, during the RPC intake process, please clarify if any
-of the verified errata for that RFC are being addressed by your
-document.
+that RFC. Also, during the RPC intake process, please confirm that all
+existing errata reports for that RFC have been reviewed and have
+either been addressed or do not apply.
 
 ## IETF Proceedings and Workshops
 
@@ -702,7 +703,7 @@ Security 12), August 2012,
 
 ```txt
 [CITE-TAG] Author, "Title", MA/MS/Ph.D. Dissertation, Awarding
-Institution, Date, <URL>.
+Institution, Date, <URL (if available)>.
 ```
 
 **Example**
