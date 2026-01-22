@@ -225,9 +225,9 @@ Datatracker page under “Additional Resources”.
 
 **Format**
 
-``` txt
-[CITE-TAG] Sender Name, "Subject: Subject line", message to the
-listname mailing list, DD Month YYYY, <URL>.
+```txt
+[CITE-TAG] Sender Name, First Initial., "Subject: Subject line",
+message to the listname mailing list, DD Month YYYY, <URL>.
 ```
 
 **Example**
@@ -430,8 +430,8 @@ using the following format:
 **Format**
 
 ```txt
-[CITE-TAG] Author(s), "Title", W3C Recommendation, Date of
-Publication, <URL>.
+[CITE-TAG] Last name, First initial., Ed. (if applicable), "Title",
+W3C Recommendation, Date of Publication, <URL>.
 
 Latest version available at <https://www.w3.org/TR/xml/>.
 ```
@@ -644,9 +644,10 @@ target="https://en.wikipedia.org/w/index.php?title=Magnet_URI_scheme&amp;oldid=5
 
 **Format**
 
-``` txt
-[CITE-TAG] Author, "Title", Name of Journal, vol. # (if
-applicable), no. # (if applicable), Date, pp. #, DOI (if applicable), <URL>.
+```
+[CITE-TAG] Last name, First initial., Ed. (if applicable), "Title",
+Name of Journal, vol. # (if applicable), no. # (if applicable), Date,
+pp. #, DOI (if applicable), <URL>.
 ```
 
 **Example**
@@ -671,9 +672,9 @@ Issue 1 = no. 1
 
 **Format**
 
-``` txt
-[CITE-TAG] Author(s), "Title", Name of Conference, Date, pp. #,
-DOI (if applicable), <URL>.
+```txt
+[CITE-TAG] Last name, First initial., Ed. (if applicable), "Title",
+Name of Conference, Date, pp. #, DOI (if applicable), <URL>.
 ```
 
 **Example**
@@ -690,8 +691,9 @@ Security 12), August 2012,
 
 **Format**
 
-``` txt
-[CITE-TAG] Author(s), "Title", Name of periodical / publication, Date, <URL>.
+```txt
+[CITE-TAG] Last name, First initial., Ed. (if applicable), "Title",
+Name of periodical / publication, Date, <URL>.
 ```
 
 **Example**
@@ -708,7 +710,7 @@ Security 12), August 2012,
 **Format**
 
 ```txt
-[CITE-TAG] Author, "Title", MA/MS/Ph.D. Dissertation, Awarding
+[CITE-TAG] Last name, First initial., "Title", MA/MS/Ph.D. Dissertation, Awarding
 Institution, Date, <URL (if available)>.
 ```
 
@@ -788,8 +790,9 @@ Publication, <URL>.
 
 **Format**
 
-``` txt
-[CITE-TAG] Author(s), “Title of SP”, NIST SP Number, DOI, Date of Publication, <URL>.
+```txt
+[CITE-TAG] Last name, First initial., Ed. (if applicable), “Title of
+SP”, NIST SP Number, DOI, Date of Publication, <URL>.
 ```
 
 **Example**
@@ -831,8 +834,8 @@ website](https://www.etsi.org/standards/types-of-standards).
 **Format**
 
 ```txt
-[CITE-TAG] Author(s), "Title", arXiv#, DOI (if applicable), Date,
-<URL>.
+[CITE-TAG] Last name, First initial., Ed. (if applicable), "Title",
+arXiv#, DOI (if applicable), Date, <URL>.
 ```
 
 **Example**
@@ -847,9 +850,9 @@ Discrete Logarithms on a Quantum Computer", arXiv:quant-ph/9508027, DOI
 
 **Format**
 
-``` txt
-[CITE-TAG] Author(s), "Title", Cryptology ePrint Archive, Paper #, Date
-(year), <URL>.
+```txt
+[CITE-TAG] Last name, First initial., Ed. (if applicable), "Title",
+Cryptology ePrint Archive, Paper #, Date (year), <URL>.
 ```
 
 **Example**
