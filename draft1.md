@@ -317,23 +317,33 @@ For more information on inserting references in RFCXML see
 
 ## Other Standards Development Organizations (SDOs)
 
-### ISO, IEC, and ISO/IEC
+### 3GPP
 
 **Format**
 
-``` txt
-[CITE-TAG] Organization, "Title", Standard Series number, Date, <URL>.
+```txt
+[CITE-TAG] 3GPP, "Title", 3GPP TR/TS TR or TS Number, <URL>.
 ```
 
 **Example**
 
-``` txt
-[SWID] ISO/IEC, "Information technology - IT asset management - Part 2: Software
-identification tag", ISO/IEC 19770-2:2015, October 2015,
-<https://www.iso.org/standard/65666.html>.
+```txt
+[Spec-3GPP] 3GPP, "System architecture for the 5G System (5GS)", 3GPP
+TS 23.501,
+<https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3144>.
 ```
 
-**Note:**
+**Referencing Specific Versions and/or Releases of 3GPP Specifications**
+
+If referencing a specific version from a specific release by 3GPP, include the
+version and release number, the date of publication, and the URL pointing to
+that version. For example:
+
+```txt
+[TR.26.857] 3GPP, "5G Media Service Enablers", 3GPP TR 26.857, Version
+1.0.0, Release 18, September 2022,
+<https://ftp.3gpp.org//Specs/archive/26_series/26.857/26857-100.zip>.
+```
 
 ### IEEE Standards
 
@@ -352,11 +362,25 @@ identification tag", ISO/IEC 19770-2:2015, October 2015,
 <https://ieeexplore.ieee.org/document/9105034>.
 ```
 
-**Note:**
-
 When creating reference entries for IEEE Standards, we recommend using
 URLs for IEEExplore. For example:
 <https://ieeexplore.ieee.org/document/9363693>.
+
+### ISO, IEC, and ISO/IEC
+
+**Format**
+
+``` txt
+[CITE-TAG] Organization, "Title", Standard Series number, Date, <URL>.
+```
+
+**Example**
+
+``` txt
+[SWID] ISO/IEC, "Information technology - IT asset management - Part 2: Software
+identification tag", ISO/IEC 19770-2:2015, October 2015,
+<https://www.iso.org/standard/65666.html>.
+```
 
 ### ITU-T Recommendations
 
@@ -374,7 +398,24 @@ networking", ITU-T Recommendation Y.3301, September 2016,
 <http://www.itu.int/rec/T-REC-Y.3301-201609-I/en>.
 ```
 
-**Note:**
+### Unicode Consortium
+
+The following guidance is adapted from the [Unicode Consortium's
+reference guidance](https://www.unicode.org/versions/#References).
+
+#### Referencing the latest version of the Unicode Standard (versionless)
+
+```txt
+[UNICODE] The Unicode Consortium, "The Unicode Standard",
+<https://www.unicode.org/versions/latest/>.
+```
+
+#### Referencing a specific version of the Unicode Standard (versioned)
+
+```txt
+[UNICODE-V17] The Unicode Consortium, "The Unicode Standard", Version
+17.0.0, 2025, <https://www.unicode.org/versions/Unicode17.0.0/>.
+```
 
 ### W3C
 
@@ -466,53 +507,6 @@ permanently available in the canonical Living Standard". For example:
 
 Please inform the RPC during the intake process if you are waiting on
 WHATWG to approve making anchors in a Living Standard permanent.
-
-### 3GPP
-
-**Format**
-
-```txt
-[CITE-TAG] 3GPP, "Title", 3GPP TR/TS TR or TS Number, <URL>.
-```
-
-**Example**
-
-```txt
-[Spec-3GPP] 3GPP, "System architecture for the 5G System (5GS)", 3GPP
-TS 23.501,
-<https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3144>.
-```
-
-**Referencing Specific Versions and/or Releases of 3GPP Specifications**
-
-If referencing a specific version from a specific release by 3GPP, include the
-version and release number, the date of publication, and the URL pointing to
-that version. For example:
-
-```txt
-[TR.26.857] 3GPP, "5G Media Service Enablers", 3GPP TR 26.857, Version
-1.0.0, Release 18, September 2022,
-<https://ftp.3gpp.org//Specs/archive/26_series/26.857/26857-100.zip>.
-```
-
-### Unicode Consortium
-
-The following guidance is adapted from the [Unicode Consortium's
-reference guidance](https://www.unicode.org/versions/#References).
-
-#### Referencing the latest version of the Unicode Standard (versionless)
-
-```txt
-[UNICODE] The Unicode Consortium, "The Unicode Standard",
-<https://www.unicode.org/versions/latest/>.
-```
-
-#### Referencing a specific version of the Unicode Standard (versioned)
-
-```txt
-[UNICODE-V17] The Unicode Consortium, "The Unicode Standard", Version
-17.0.0, 2025, <https://www.unicode.org/versions/Unicode17.0.0/>.
-```
 
 ## General Web Content
 
@@ -794,8 +788,6 @@ Publication, <URL>.
 <https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf>.
 ```
 
-**Note:**
-
 #### NIST Special Publications (SPs)
 
 **Format**
@@ -812,8 +804,6 @@ Proxy Models for Cloud-Native Applications”, NIST SP 800-233, DOI
 10.6028/NIST.SP.800-233, October 2024,
 <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-233.pdf>.
 ```
-
-**Note:**
 
 ### ETSI
 
