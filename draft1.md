@@ -34,8 +34,8 @@ DOI 10.17487/RFC3080, March 2001, <https://www.rfc-editor.org/info/rfc3080>.
 
 **Using the BibXML Service for RFCs**
 
-Reference entries for RFCs can be added to a document using the
-[BibXML
+The RPC strongly recommends adding reference entries for RFCs using
+the [BibXML
 service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/). For
 example:
 
@@ -67,9 +67,9 @@ Progress, Internet-Draft, draft-editorial-rswg-rfc9280-updates-04, 31 July 2025,
 
 **Using the BibXML Service for I-Ds**
 
-Reference entries for I-Ds can be added to a document using the
-[BibXML
-service](https://bib.ietf.org/indexed-sources/relaton-data-ids/). For
+The RPC strongly recommends adding reference entries for I-Ds using
+the [BibXML
+service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/). For
 example:
 
 ```xml
@@ -117,9 +117,9 @@ Cerf, V., “ASCII format for network interchange”, STD 80, RFC 20, DOI
 
 **Using the BibXML Service for Subseries:**
 
-Reference entries for subseries can be added to a document using the
-[BibXML
-service](https://bib.ietf.org/indexed-sources/relaton-data-rfcsubseries/). For
+The RPC strongly recommends adding reference entries for subseries
+documents using the [BibXML
+service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/).. For
 example:
 
 ```xml
