@@ -591,9 +591,7 @@ Any other considerations?
 [RFC-Editor] "RFC Editor", <https://https://www.rfc-editor.org/>.
 ```
 
-**Note:**
-
-**Titles for references to  websites.**
+**Titles for References to Websites.**
 
 Some websites may not have exact titles or the title may not be clear. If this
 is the case, a description may be used instead.
@@ -604,7 +602,7 @@ For example:
 Microsoft, "Microsoft home page", <https://https://www.microsoft.com/en-us/>.
 ```
 
-**Dates for references to websites**
+**Dates for References to Websites**
 
 If the website being reference includes a publication date or "Last modified"
 date (or equivalent), include it as the date for the reference.
@@ -626,7 +624,7 @@ REVIEW should we include the archived date?
 <https://en.wikipedia.org/w/index.php?title=Magnet_URI_scheme&oldid=546892719>.
 ```
 
-**Note:**
+**Permanent Links for Wikipedia Reference Entries**
 
 Wikipedia provides a permanent link under the "Tools" tab. A list of permanent
 links is also available under the "View history" tab.
@@ -660,7 +658,7 @@ graphs", Numerische Mathematik, vol. 1, pp. 269-271, DOI
 <https://link.springer.com/article/10.1007/BF01386390>.
 ```
 
-**Note:**
+**Format for Journal Volume and Issue Numbers**
 
 For journal articles with volume and issue numbers we recommend using the
 following style:
@@ -688,8 +686,6 @@ Security 12), August 2012,
 <https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/heninger>.
 ```
 
-**Note:**
-
 ### Online Periodical (Newspaper, Magazine, etc.)
 
 **Format**
@@ -704,8 +700,6 @@ Security 12), August 2012,
 [Wired-IETF] Borsook, P., "How Anarchy Works", Wired, October 1995,
 <https://www.wired.com/1995/10/ietf/>.
 ```
-
-**Note:**
 
 ## Academic Sources
 
@@ -772,8 +766,6 @@ Format of reference entries:
 [pysaml2-config] "config.py", commit 74dc24d, 26 September 2023,
 <https://github.com/IdentityPython/pysaml2/blob/master/src/saml2/config.py>.
 ```
-
-**Note:**
 
 ## Government Publications
 
@@ -861,8 +853,6 @@ Standardisation", Cryptology ePrint Archive, Paper 2011/211, 2011,
 <https://eprint.iacr.org/2011/211>.
 ```
 
-**Note:**
-
 ### arXiv Papers
 
 **Format**
@@ -879,5 +869,3 @@ Standardisation", Cryptology ePrint Archive, Paper 2011/211, 2011,
 Discrete Logarithms on a Quantum Computer", arXiv:quant-ph/9508027, DOI
 10.48550/arXiv.quant-ph/9508027, January 1996, <https://arxiv.org/abs/quant-ph/9508027>.
 ```
-
-**Note:**
