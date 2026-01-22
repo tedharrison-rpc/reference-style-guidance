@@ -570,13 +570,6 @@ If there is a concern about the longevity of the URL, we recommending using an
 archived URL in the reference. For example, using the [Internet Archive Wayback
 Machine](https://web.archive.org/) or [Perma.cc](https://perma.cc/).
 
-REVIEW:
-
-Noting thtat this it seems like this was discussed by RSWG:
-- https://www.rfc-editor.org/staff/wiki/doku.php?id=wayback_machine_url
-- https://mailarchive.ietf.org/arch/msg/rswg/_X85fmA37bulrJHgy64pSMuSEPE/
-Any other considerations?
-
 ### Websites
 
 **Format**
