@@ -43,6 +43,9 @@ example:
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.1234.xml"/>
 ```
 
+For more information on inserting references in RFCXML see
+<https://authors.ietf.org/en/references-in-rfcxml>.
+
 ### Internet Draft (I-D)
 
 **Format**
@@ -72,6 +75,9 @@ example:
 ```xml
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.rpc-rfc7322bis.xml"/>
 ```
+
+For more information on inserting references in RFCXML see
+<https://authors.ietf.org/en/references-in-rfcxml>.
 
 ### Subseries - Best Current Practices (BCPs) and Internet Standards (STDs)
 
@@ -119,6 +125,9 @@ example:
 ```xml
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml9/reference.BCP.0237.xml"/>
 ```
+
+For more information on inserting references in RFCXML see
+<https://authors.ietf.org/en/references-in-rfcxml>.
 
 ### Errata
 
@@ -302,6 +311,9 @@ example:
 ```xml
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml8/reference.IANA.ancp_message-types.xml"/>
 ```
+
+For more information on inserting references in RFCXML see
+<https://authors.ietf.org/en/references-in-rfcxml>.
 
 ## Other Standards Development Organizations (SDOs)
 
