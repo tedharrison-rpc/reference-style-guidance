@@ -840,6 +840,23 @@ website](https://www.etsi.org/standards/types-of-standards).
 
 ## Archives
 
+### arXiv Papers
+
+**Format**
+
+```txt
+[CITE-TAG] Author(s), "Title", arXiv#, DOI (if applicable), Date,
+<URL>.
+```
+
+**Example**
+
+```txt
+[Shors96] Shor, P. W., "Polynomial-Time Algorithms for Prime Factorization and
+Discrete Logarithms on a Quantum Computer", arXiv:quant-ph/9508027, DOI
+10.48550/arXiv.quant-ph/9508027, January 1996, <https://arxiv.org/abs/quant-ph/9508027>.
+```
+
 ### Cryptology ePrint Archive Papers
 
 **Format**
@@ -857,19 +874,4 @@ Standardisation", Cryptology ePrint Archive, Paper 2011/211, 2011,
 <https://eprint.iacr.org/2011/211>.
 ```
 
-### arXiv Papers
 
-**Format**
-
-```txt
-[CITE-TAG] Author(s), "Title", arXiv#, DOI (if applicable), Date,
-<URL>.
-```
-
-**Example**
-
-```txt
-[Shors96] Shor, P. W., "Polynomial-Time Algorithms for Prime Factorization and
-Discrete Logarithms on a Quantum Computer", arXiv:quant-ph/9508027, DOI
-10.48550/arXiv.quant-ph/9508027, January 1996, <https://arxiv.org/abs/quant-ph/9508027>.
-```
