@@ -718,12 +718,8 @@ Institution, Date, <URL (if available)>.
 [REST] Fielding, R., "Architectural Styles and the Design of Network-based
 Software Architectures", Ph.D. Dissertation, University of California,
 Irvine, 2000,
-<https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf>.
+<https://roy.gbiv.com/pubs/dissertation/top.htm>.
 ```
-
-**Note:**
-
-TODO just noticed this URL no longer resolves to a pdf. Now states "Forbidden - You don't have permission to access this resource.". Find a better example.
 
 ## Web-based Public Code Repositories
 
