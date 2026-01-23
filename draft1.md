@@ -317,7 +317,7 @@ For more information on inserting references in RFCXML see
 
 ## Other Standards Development Organizations (SDOs)
 
-### 3GPP
+### 3rd Generation Partnership Project (3GPP)
 
 **Format**
 
@@ -345,7 +345,7 @@ that version. For example:
 <https://ftp.3gpp.org//Specs/archive/26_series/26.857/26857-100.zip>.
 ```
 
-### IEEE Standards
+### Institute of Electrical and Electronics Engineers (IEEE) Standards
 
 **Format**
 
@@ -366,7 +366,7 @@ When creating reference entries for IEEE Standards, we recommend using
 URLs for IEEExplore. For example:
 <https://ieeexplore.ieee.org/document/9363693>.
 
-### ISO, IEC, and ISO/IEC
+### International Organization for Standardization (ISO) / International Electrotechnical Commission (IEC)
 
 **Format**
 
@@ -382,7 +382,7 @@ identification tag", ISO/IEC 19770-2:2015, October 2015,
 <https://www.iso.org/standard/65666.html>.
 ```
 
-### ITU-T Recommendations
+### International Telecommunication Union Telecommunication Standardization Sector (ITU-T) Recommendations
 
 **Format**
 
@@ -417,7 +417,7 @@ reference guidance](https://www.unicode.org/versions/#References).
 17.0.0, 2025, <https://www.unicode.org/versions/Unicode17.0.0/>.
 ```
 
-### W3C
+### World Wide Web Consortium (W3C)
 
 W3C provides two URLs for their documents: 
 
@@ -456,7 +456,7 @@ RFCXML like so:
 <annotation>Latest version available at <eref target="URL" brackets="angle"/>.</annotation>
 ```
 
-### WHATWG
+### Web Hypertext Application Technology Working Group (WHATWG)
 
 WHATWG provides ["commit
 snapshots"](https://urlpattern.spec.whatwg.org/commit-snapshots/d13ebead18003059a83ca4a25240e5cafc066c4c/)
