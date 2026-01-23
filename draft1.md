@@ -541,18 +541,18 @@ When assessing URLs for stability, consider the following:
 
 **"Link rot" and "content drift"**
 
-"Link rot" is when the provided URL fails to point to its original target. This
-failure is often the result of the resource being moved to a new address or
-becoming permanently unavailable.
+"Link rot" is the phenomenon where a URL fails to point to its
+original target. This failure is often the result of the resource
+being moved to a new address or becoming permanently unavailable.
 
-"Content drift" is the phenomenon where the URL functions, but the content
-available at that URL changes over time - for example, an organization's
-homepage content changing due to that organization changing its name or being
+"Content drift" is the phenomenon where a URL is functional, but the
+content available at that URL changes over time - for example, an
+organization's homepage content changing due to a name change or being
 folded into another organization.
 
-Using permanent identifiers and/or archived URLs may help preserve the stability
-of a reference's URL and prevent a reference from being affected by link rot or
-content drift.
+Using permanent identifiers and/or archived URLs may help preserve the
+stability of a reference's URL and prevent a reference from being
+affected by link rot or content drift.
 
 For more information on link rot and content drift see:
 - https://en.wikipedia.org/w/index.php?title=Link_rot&oldid=1324240675
