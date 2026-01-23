@@ -577,6 +577,9 @@ If there is a concern about the longevity of the URL, we recommending using an
 archived URL in the reference. For example, using the [Internet Archive Wayback
 Machine](https://web.archive.org/) or [Perma.cc](https://perma.cc/).
 
+Example of an Internet Archive Wayback Machine URL:
+<https://web.archive.org/web/20260122123558/https://www.rfc-editor.org/>
+
 ### Websites
 
 **Format**
@@ -604,10 +607,8 @@ Microsoft, "Microsoft home page", <https://https://www.microsoft.com/en-us/>.
 
 **Dates for References to Websites**
 
-If the website being reference includes a publication date or "Last modified"
+If the website being referenced includes a publication date or "Last modified"
 date (or equivalent), include it as the date for the reference.
-
-REVIEW should we include the archived date?
 
 ### Wikipedia Articles
 
