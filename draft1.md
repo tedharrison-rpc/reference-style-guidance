@@ -512,8 +512,8 @@ RFCXML like so:
 
 ### Referencing Internet Content: Best Practices and Recommendations
 
-This section provides more information to (or just "updates?") on the guidance
-for using URIs in RFCs from [Section 4.8.6.1 of RFC
+This section expands on the guidance for using URIs in RFCs from
+[Section 4.8.6.1 of RFC
 7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.1):
 
 > The use of URIs in references is acceptable, as long as the URI is
