@@ -768,7 +768,7 @@ Format of reference entries:
 
 ## Government Publications
 
-### NIST
+### National Institute of Standards and Technology (NIST)
 
 #### NIST Federal Information Processing Standards Publications (FIPS)
 
@@ -805,7 +805,7 @@ Proxy Models for Cloud-Native Applications”, NIST SP 800-233, DOI
 <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-233.pdf>.
 ```
 
-### ETSI
+### European Telecommunications Standards Institute (ETSI)
 
 **Format**
 
