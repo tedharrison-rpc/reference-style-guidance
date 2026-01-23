@@ -417,45 +417,6 @@ reference guidance](https://www.unicode.org/versions/#References).
 17.0.0, 2025, <https://www.unicode.org/versions/Unicode17.0.0/>.
 ```
 
-### World Wide Web Consortium (W3C)
-
-W3C provides two URLs for their documents: 
-
-- A "This version" URL. For example: <https://www.w3.org/TR/2008/REC-xml-20081126>.
-- A "Latest version" URL. For example: <https://www.w3.org/TR/xml/>.
-
-We recommend including both URLs in reference entries to W3C documents
-using the following format:
-
-**Format**
-
-```txt
-[CITE-TAG] Last name, First initial., Ed. (if applicable), "Title",
-W3C Recommendation, Date of Publication, <URL>.
-
-Latest version available at <https://www.w3.org/TR/xml/>.
-```
-
-**Example**
-
-``` txt
-[W3C.XML1.0] Bray, T., Ed., Paoli, J., Ed., Sperberg-McQueen, C.M., Ed., Maler,
-E., Ed., and F. Yergeau, Ed., "Extensible Markup Language (XML) 1.0 (Fifth
-Edition)", W3C Recommendation, 26 November 2008, <https://
-www.w3.org/TR/2008/REC-xml-20081126/>.
-
-Latest version available at <https://www.w3.org/TR/xml/>.
-```
-
-**Note:**
-
-The "latest version" annotation can be included in a reference in
-RFCXML like so:
-
-```xml
-<annotation>Latest version available at <eref target="URL" brackets="angle"/>.</annotation>
-```
-
 ### Web Hypertext Application Technology Working Group (WHATWG)
 
 WHATWG provides ["commit
@@ -507,6 +468,45 @@ permanently available in the canonical Living Standard". For example:
 
 Please inform the RPC during the intake process if you are waiting on
 WHATWG to approve making anchors in a Living Standard permanent.
+
+### World Wide Web Consortium (W3C)
+
+W3C provides two URLs for their documents: 
+
+- A "This version" URL. For example: <https://www.w3.org/TR/2008/REC-xml-20081126>.
+- A "Latest version" URL. For example: <https://www.w3.org/TR/xml/>.
+
+We recommend including both URLs in reference entries to W3C documents
+using the following format:
+
+**Format**
+
+```txt
+[CITE-TAG] Last name, First initial., Ed. (if applicable), "Title",
+W3C Recommendation, Date of Publication, <URL>.
+
+Latest version available at <https://www.w3.org/TR/xml/>.
+```
+
+**Example**
+
+``` txt
+[W3C.XML1.0] Bray, T., Ed., Paoli, J., Ed., Sperberg-McQueen, C.M., Ed., Maler,
+E., Ed., and F. Yergeau, Ed., "Extensible Markup Language (XML) 1.0 (Fifth
+Edition)", W3C Recommendation, 26 November 2008, <https://
+www.w3.org/TR/2008/REC-xml-20081126/>.
+
+Latest version available at <https://www.w3.org/TR/xml/>.
+```
+
+**Note:**
+
+The "latest version" annotation can be included in a reference in
+RFCXML like so:
+
+```xml
+<annotation>Latest version available at <eref target="URL" brackets="angle"/>.</annotation>
+```
 
 ## General Web Content
 
