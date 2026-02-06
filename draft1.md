@@ -123,10 +123,11 @@ state should not be referenced; they are not considered stable.
 
 **Note on Updating or Obsoleting RFCs with Errata**
 
-If you are writing an Internet-Draft that has an "Updates" or
-"Obsoletes" relationship to a published RFC, we recommend asking your
-Area Director (AD) or Stream Manager to verify any reported errata for
-that RFC. Also, during the RPC intake process, please confirm that all
+If you are writing an Internet-Draft that has an ["Updates" or
+"Obsoletes"](https://www.ietf.org/process/rfcs/#obsoleting-and-updating)
+relationship to a published RFC, we recommend asking your Area
+Director (AD) or Stream Manager to verify any reported errata for that
+RFC. Also, during the RPC intake process, please confirm that all
 existing errata reports for that RFC have been reviewed and have
 either been addressed or do not apply.
 
