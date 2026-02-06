@@ -46,39 +46,6 @@ example:
 For more information on inserting references in RFCXML see
 <https://authors.ietf.org/en/references-in-rfcxml>.
 
-### Internet Draft (I-D)
-
-**Format**
-
-``` txt
-[CITE-TAG] Last name, First initial., Ed. (if applicable) and
-First initial.  Last name, Ed. (if applicable), "I-D Title", Work in
-Progress, Internet-Draft, draft-string-NN, Day Month Year,
-<https://datatracker.ietf.org/doc/html/draft-something>.
-```
-
-**Example**
-
-``` txt
-[RFC-STYLE] Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)", Work in
-Progress, Internet-Draft, draft-editorial-rswg-rfc9280-updates-04, 31 July 2025,
-<https://datatracker.ietf.org/doc/draft-editorial-rswg-rfc9280-updates/>.
-```
-
-**Using the BibXML Service for I-Ds**
-
-The RPC strongly recommends adding reference entries for I-Ds using
-the [BibXML
-service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/). For
-example:
-
-```xml
-<xi:include href="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.rpc-rfc7322bis.xml"/>
-```
-
-For more information on inserting references in RFCXML see
-<https://authors.ietf.org/en/references-in-rfcxml>.
-
 ### Subseries - Best Current Practices (BCPs) and Internet Standards (STDs)
 
 This guidance overrides [Section 4.8.6.3 of RFC
@@ -163,106 +130,6 @@ that RFC. Also, during the RPC intake process, please confirm that all
 existing errata reports for that RFC have been reviewed and have
 either been addressed or do not apply.
 
-## IETF Proceedings and Workshops
-
-**Format**
-
-``` txt
-[CITE-TAG] Presenter Last Name, First initial.,
-"Presentation Title", IETF # Proceedings, Month Year, <URL>.
-```
-
-**Example**
-
-``` txt
-[MAPRG]  Bajpai, V., "Measuring YouTube Content Delivery over IPv6",
-IETF 99 Proceedings, July 2017,
-<https://datatracker.ietf.org/meeting/99/materials/slides-99-maprg-measuring-youtube-content-delivery-over-ipv6-00>.
-```
-
-**Note: Finding proceedings pages**
-
-Past IETF meetings are listed here:
-https://www.ietf.org/how/meetings/past/
-
-Meeting materials can also be found on each working group’s meeting page
-on Datatracker. For example,
-https://datatracker.ietf.org/wg/quic/meetings/
-
-## Working Group (WG) pages on Datatracker
-
-**Format**
-
-``` txt
-[CITE-TAG] IETF, "Working Group Name (abbreviation)", <URL>.
-```
-
-**Example**
-
-``` txt
-[CDNI] IETF, "Content Delivery Networks Interconnection
-(cdni)",<https://datatracker.ietf.org/wg/cdni/charter/>.
-```
-
-**Note: Finding a Working Group’s Datatracker page and the appropriate
-URL**
-
-A list of active IETF Working Groups is availabe on
-[Datatracker](https://datatracker.ietf.org/wg/).
-
-Use the WG’s Datatracker URL. Both /charter and /about point to the same
-page. Aim for consistency within a document.
-
-Note that, while a WG can have a GitHub repo, and RFCs can point to
-these, the text shouldn’t imply that the repo is the main information
-page for the working group. There should be a link to the WG’s
-Datatracker page instead. A link to a  WG’s repo can be found on their
-Datatracker page under “Additional Resources”.
-
-## Mailing List Discussions
-
-### Specific Message in a Mailing List Discussion
-
-**Format**
-
-```txt
-[CITE-TAG] Sender Name, First Initial., "Subject: Subject line",
-message to the listname mailing list, DD Month YYYY, <URL>.
-```
-
-**Example**
-
-``` txt
-[RPC-Meeting] Mahoney, J., "[rfc-i] RFC Production Center open meeting - Nov
-19", message to the rfc-interest mailing list, 12 November 2025,
-https://mailarchive.ietf.org/arch/msg/rfc-interest/czuWiLuFOiuXLmRw3Z6Syt9QXM4/.
-```
-
-**Note:**
-
-For a message on an IETF mailing list, use mailarchive.ietf.org
-URLs. To find a WG mailing list, check
-https://datatracker.ietf.org/wg/ and/or
-https://datatracker.ietf.org/group/concluded/.
-
-Mailing list addresses of the format “@lists.ietf.org” (mostly WG
-lists) have not been valid since 2005.
-
-### Entire Mailing List
-
-**Format**
-
-``` txt
-[CITE-TAG] Name of mail archive, "Name of Mailing List" Archive, <URL>.
-```
-
-**Example**
-
-``` txt
-[SAAG_list] IETF Mail Archive, "saag Archive",
-<https://www.ietf.org/mail-archive/web/saag/current/maillist.html>.
-```
-
 ## IANA Registries and Registry Groups
 
 ### IANA Registry
@@ -315,6 +182,141 @@ example:
 For more information on inserting references in RFCXML see
 <https://authors.ietf.org/en/references-in-rfcxml>.
 
+## Working Groups (WGs) and Research Groups (RGs)
+
+### Internet Draft (I-D)
+
+**Format**
+
+``` txt
+[CITE-TAG] Last name, First initial., Ed. (if applicable) and
+First initial.  Last name, Ed. (if applicable), "I-D Title", Work in
+Progress, Internet-Draft, draft-string-NN, Day Month Year,
+<https://datatracker.ietf.org/doc/html/draft-something>.
+```
+
+**Example**
+
+``` txt
+[RFC-STYLE] Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)", Work in
+Progress, Internet-Draft, draft-editorial-rswg-rfc9280-updates-04, 31 July 2025,
+<https://datatracker.ietf.org/doc/draft-editorial-rswg-rfc9280-updates/>.
+```
+
+**Using the BibXML Service for I-Ds**
+
+The RPC strongly recommends adding reference entries for I-Ds using
+the [BibXML
+service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/). For
+example:
+
+```xml
+<xi:include href="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.rpc-rfc7322bis.xml"/>
+```
+
+For more information on inserting references in RFCXML see
+<https://authors.ietf.org/en/references-in-rfcxml>.
+
+### Working Group (WG) pages on Datatracker
+
+**Format**
+
+``` txt
+[CITE-TAG] IETF, "Working Group Name (abbreviation)", <URL>.
+```
+
+**Example**
+
+``` txt
+[CDNI] IETF, "Content Delivery Networks Interconnection
+(cdni)",<https://datatracker.ietf.org/wg/cdni/charter/>.
+```
+
+**Note: Finding a Working Group’s Datatracker page and the appropriate
+URL**
+
+A list of active IETF Working Groups is availabe on
+[Datatracker](https://datatracker.ietf.org/wg/).
+
+Use the WG’s Datatracker URL. Both /charter and /about point to the same
+page. Aim for consistency within a document.
+
+Note that, while a WG can have a GitHub repo, and RFCs can point to
+these, the text shouldn’t imply that the repo is the main information
+page for the working group. There should be a link to the WG’s
+Datatracker page instead. A link to a  WG’s repo can be found on their
+Datatracker page under “Additional Resources”.
+
+### Mailing List Discussions
+
+#### Specific Message in a Mailing List Discussion
+
+**Format**
+
+```txt
+[CITE-TAG] Sender Name, First Initial., "Subject: Subject line",
+message to the listname mailing list, DD Month YYYY, <URL>.
+```
+
+**Example**
+
+``` txt
+[RPC-Meeting] Mahoney, J., "[rfc-i] RFC Production Center open meeting - Nov
+19", message to the rfc-interest mailing list, 12 November 2025,
+https://mailarchive.ietf.org/arch/msg/rfc-interest/czuWiLuFOiuXLmRw3Z6Syt9QXM4/.
+```
+
+**Note:**
+
+For a message on an IETF mailing list, use mailarchive.ietf.org
+URLs. To find a WG mailing list, check
+https://datatracker.ietf.org/wg/ and/or
+https://datatracker.ietf.org/group/concluded/.
+
+Mailing list addresses of the format “@lists.ietf.org” (mostly WG
+lists) have not been valid since 2005.
+
+#### Entire Mailing List
+
+**Format**
+
+``` txt
+[CITE-TAG] Name of mail archive, "Name of Mailing List" Archive, <URL>.
+```
+
+**Example**
+
+``` txt
+[SAAG_list] IETF Mail Archive, "saag Archive",
+<https://www.ietf.org/mail-archive/web/saag/current/maillist.html>.
+```
+
+### IETF Meeting Presentations
+
+**Format**
+
+``` txt
+[CITE-TAG] Presenter Last Name, First initial.,
+"Presentation Title", IETF # Proceedings, Month Year, <URL>.
+```
+
+**Example**
+
+``` txt
+[MAPRG]  Bajpai, V., "Measuring YouTube Content Delivery over IPv6",
+IETF 99 Proceedings, July 2017,
+<https://datatracker.ietf.org/meeting/99/materials/slides-99-maprg-measuring-youtube-content-delivery-over-ipv6-00>.
+```
+
+**Note: Finding proceedings pages**
+
+Past IETF meetings are listed here:
+https://www.ietf.org/how/meetings/past/
+
+Meeting materials can also be found on each working group’s meeting page
+on Datatracker. For example,
+https://datatracker.ietf.org/wg/quic/meetings/
+
 ## Other Standards Development Organizations (SDOs)
 
 ### 3rd Generation Partnership Project (3GPP)
@@ -344,6 +346,29 @@ that version. For example:
 1.0.0, Release 18, September 2022,
 <https://ftp.3gpp.org//Specs/archive/26_series/26.857/26857-100.zip>.
 ```
+
+### European Telecommunications Standards Institute (ETSI)
+
+**Format**
+
+```txt
+[CITE-TAG] ETSI, "Title", Document
+identifier, Version number (if applicable), Date, <URL>.
+```
+
+**Example**
+
+```txt
+[nfv-framework] ETSI, "Network Functions Virtualisation (NFV); Architectural
+Framework", ETSI GS NFV 002, V1.2.1, December 2014,
+<https://www.etsi.org/deliver/etsi_gs/NFV/001_099/002/01.02.01_60/gs_NFV002v010201p.pdf>.
+```
+
+**Note:**
+
+A list of the types of standards, specifications, and reports produced by ETSI
+is available on [their
+website](https://www.etsi.org/standards/types-of-standards).
 
 ### Institute of Electrical and Electronics Engineers (IEEE) Standards
 
@@ -396,6 +421,43 @@ identification tag", ISO/IEC 19770-2:2015, October 2015,
 [Y3301] ITU-T, "Functional requirements of software-defined
 networking", ITU-T Recommendation Y.3301, September 2016,
 <http://www.itu.int/rec/T-REC-Y.3301-201609-I/en>.
+```
+
+### National Institute of Standards and Technology (NIST)
+
+#### NIST Federal Information Processing Standards Publications (FIPS)
+
+**Format**
+
+``` txt
+[CITE-TAG] NIST, “Title of FIPS Publication”, NIST FIPS Number, DOI, Date of
+Publication, <URL>.
+```
+
+**Example**
+
+``` txt
+[NIST_FIPS_180_4] NIST, “Secure Hash Standard”, NIST FIPS 180-4, DOI
+10.6028/NIST.FIPS.180-4, August 2015,
+<https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf>.
+```
+
+#### NIST Special Publications (SPs)
+
+**Format**
+
+```txt
+[CITE-TAG] Last name, First initial., Ed. (if applicable), “Title of
+SP”, NIST SP Number, DOI, Date of Publication, <URL>.
+```
+
+**Example**
+
+``` txt
+[NIST_SP_800-233] Chandramouli, R., Butcher, Z., and J. Callaghan, “Service Mesh
+Proxy Models for Cloud-Native Applications”, NIST SP 800-233, DOI
+10.6028/NIST.SP.800-233, October 2024,
+<https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-233.pdf>.
 ```
 
 ### Unicode Consortium
@@ -765,68 +827,6 @@ Format of reference entries:
 [pysaml2-config] "config.py", commit 74dc24d, 26 September 2023,
 <https://github.com/IdentityPython/pysaml2/blob/master/src/saml2/config.py>.
 ```
-
-## Government Publications
-
-### National Institute of Standards and Technology (NIST)
-
-#### NIST Federal Information Processing Standards Publications (FIPS)
-
-**Format**
-
-``` txt
-[CITE-TAG] NIST, “Title of FIPS Publication”, NIST FIPS Number, DOI, Date of
-Publication, <URL>.
-```
-
-**Example**
-
-``` txt
-[NIST_FIPS_180_4] NIST, “Secure Hash Standard”, NIST FIPS 180-4, DOI
-10.6028/NIST.FIPS.180-4, August 2015,
-<https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf>.
-```
-
-#### NIST Special Publications (SPs)
-
-**Format**
-
-```txt
-[CITE-TAG] Last name, First initial., Ed. (if applicable), “Title of
-SP”, NIST SP Number, DOI, Date of Publication, <URL>.
-```
-
-**Example**
-
-``` txt
-[NIST_SP_800-233] Chandramouli, R., Butcher, Z., and J. Callaghan, “Service Mesh
-Proxy Models for Cloud-Native Applications”, NIST SP 800-233, DOI
-10.6028/NIST.SP.800-233, October 2024,
-<https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-233.pdf>.
-```
-
-### European Telecommunications Standards Institute (ETSI)
-
-**Format**
-
-```txt
-[CITE-TAG] ETSI, "Title", Document
-identifier, Version number (if applicable), Date, <URL>.
-```
-
-**Example**
-
-```txt
-[nfv-framework] ETSI, "Network Functions Virtualisation (NFV); Architectural
-Framework", ETSI GS NFV 002, V1.2.1, December 2014,
-<https://www.etsi.org/deliver/etsi_gs/NFV/001_099/002/01.02.01_60/gs_NFV002v010201p.pdf>.
-```
-
-**Note:**
-
-A list of the types of standards, specifications, and reports produced by ETSI
-is available on [their
-website](https://www.etsi.org/standards/types-of-standards).
 
 ## Archives
 
