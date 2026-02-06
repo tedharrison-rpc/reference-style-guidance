@@ -321,13 +321,14 @@ https://datatracker.ietf.org/wg/quic/meetings/
 ## Other Standards Development Organizations (SDOs)
 
 > [!IMPORTANT]
-> The main purpose of this page is to provide authors with a
-> non-exhaustive list of commonly used references to promote consistent
-> formatting of reference entries in RFCs and I-Ds. Organizations and
-> sources are included in this list for the sole purpose of providing
-> examples to authors. The inclusion of an organization in this list
-> does not represent an endorsement of that organization's standards,
-> specifications, or other any documentation by the IETF.
+> The main purpose of this section is to provide authors with a
+> non-exhaustive list of commonly used references to promote
+> consistent formatting of reference entries in RFCs and
+> I-Ds. Organizations and sources are included in this list for the
+> sole purpose of providing examples to authors. The inclusion of an
+> organization in this list does not represent an endorsement of that
+> organization's standards, specifications, or other any documentation
+> by the IETF.
 
 ### 3rd Generation Partnership Project (3GPP)
 
