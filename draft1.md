@@ -1,17 +1,9 @@
 # Reference Style Guidance
 
-This section covers style guidance for reference entries in
-Internet-Drafts and RFCs and is the primary source of reference style
-guidance for the RFC series.
+This section provides guidance about reference entries commonly found in Internet-Drafts and RFCs; it is not comprehensive.  Authors should follow this guidance when drafting their documents.  
 
-If you have a question about how to format references that is not
-covered here, please contact the RFC Production Center (RPC) at
-rfc-editor@rfc-editor.org.
-
-If you notice any issues or are aware of any updates to the
-information on this page, please open an [issue on
-GitHub](https://github.com/ietf/authors.ietf.org/issues) or send an
-email to the RPC (rfc-editor@rfc-editor.org).
+Send comments or questions about this guidance or other reference issues to the RFC Production Center (RPC) at rfc-editor@rfc-editor.org or open an [issue on
+GitHub](https://github.com/ietf/authors.ietf.org/issues).  
 
 ## RFC Series
 
