@@ -1,6 +1,6 @@
 # Reference Style Guidance
 
-This section provides guidance about reference entries commonly found in Internet-Drafts and RFCs; it is not comprehensive.  Authors should follow this guidance when drafting their documents.  
+This section provides guidance about reference entries commonly found in Internet-Drafts and RFCs; it is not comprehensive.  These are the recommended reference formats for differnet types of references, and authors should follow this guidance when drafting their documents.  Note: Being included on this page does NOT imply endoresement or recognition of any kind.  
 
 Send comments or questions about this guidance or other reference issues to the RFC Production Center (RPC) at rfc-editor@rfc-editor.org or open an [issue on
 GitHub](https://github.com/ietf/authors.ietf.org/issues).  
