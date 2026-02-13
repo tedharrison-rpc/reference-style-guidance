@@ -306,7 +306,7 @@ Meeting materials can also be found on each working group’s meeting page
 on Datatracker. For example,
 https://datatracker.ietf.org/wg/quic/meetings/
 
-## Other Standards Development Organizations (SDOs)
+## Other Organizations
 
 > [!IMPORTANT]
 > The main purpose of this section is to provide authors with a
