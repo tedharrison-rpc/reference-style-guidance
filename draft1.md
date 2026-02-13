@@ -487,7 +487,8 @@ reference guidance](https://www.unicode.org/versions/#References).
 
 ```txt
 [UNICODE-V17] The Unicode Consortium, "The Unicode Standard", Version
-17.0.0, 2025, <https://www.unicode.org/versions/Unicode17.0.0/>.
+17.0.0, ISBN 978-1-936213-35-1, 2025,
+<https://www.unicode.org/versions/Unicode17.0.0/>.
 ```
 
 ### Web Hypertext Application Technology Working Group (WHATWG)
