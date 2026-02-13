@@ -26,7 +26,7 @@ DOI 10.17487/RFC3080, March 2001, <https://www.rfc-editor.org/info/rfc3080>.
 
 **Using the BibXML Service for RFCs**
 
-The RPC strongly recommends adding reference entries for RFCs using
+Add RFC references using
 the [BibXML
 service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/). For
 example:
@@ -76,9 +76,8 @@ Cerf, V., “ASCII format for network interchange”, STD 80, RFC 20, DOI
 
 **Using the BibXML Service for Subseries:**
 
-The RPC strongly recommends adding reference entries for subseries
-documents using the [BibXML
-service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/).. For
+Add references for subseries documents using the [BibXML
+service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/). For
 example:
 
 ```xml
@@ -90,10 +89,11 @@ For more information on inserting references in RFCXML see
 
 ### Errata
 
-The format for references to errata reports described in [Section
+This guidance overrides [Section
 4.8.6.5 of RFC
-7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.5) is
-updated as follows:
+7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.5). 
+
+The format for references to errata reports is as follows:
 
 **Format**
 
@@ -115,13 +115,10 @@ state should not be referenced; they are not considered stable.
 
 **Note on Updating or Obsoleting RFCs with Errata**
 
-If you are writing an Internet-Draft that has an ["Updates" or
+If your Internet-Draft ["Updates" or
 "Obsoletes"](https://www.ietf.org/process/rfcs/#obsoleting-and-updating)
-relationship to a published RFC, we recommend asking your Area
-Director (AD) or Stream Manager to verify any reported errata for that
-RFC. Also, during the RPC intake process, please confirm that all
-existing errata reports for that RFC have been reviewed and have
-either been addressed or do not apply.
+another RFC and addresses errata filed against those RFCs, we recommend asking your Area
+Director (AD) or Stream Manager to verify the relevant reported errata. 
 
 ## IANA Registries and Registry Groups
 
@@ -163,8 +160,7 @@ more information.
 
 ### Using the BibXML Service for IANA Reference Entries
 
-Reference entries for IANA registries and registry groups can be added
-to a document using the [BibXML
+Add reference entries for IANA registries and registry groups using the [BibXML
 Service](https://bib.ietf.org/indexed-sources/relaton-data-iana/). For
 example:
 
@@ -198,7 +194,7 @@ Progress, Internet-Draft, draft-editorial-rswg-rfc9280-updates-04, 31 July 2025,
 
 **Using the BibXML Service for I-Ds**
 
-The RPC strongly recommends adding reference entries for I-Ds using
+Add reference entries for I-Ds using
 the [BibXML
 service](https://bib.ietf.org/indexed-sources/relaton-data-rfcs/). For
 example:
@@ -319,8 +315,7 @@ https://datatracker.ietf.org/wg/quic/meetings/
 > I-Ds. Organizations and sources are included in this list for the
 > sole purpose of providing examples to authors. The inclusion of an
 > organization in this list does not represent an endorsement of that
-> organization's standards, specifications, or other any documentation
-> by the IETF.
+> organization's standards, specifications, or other any documentation. 
 
 ### 3rd Generation Partnership Project (3GPP)
 
