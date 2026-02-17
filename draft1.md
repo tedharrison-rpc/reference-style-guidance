@@ -767,22 +767,21 @@ Name of periodical / publication, Date, <URL>.
 
 ## Academic Sources
 
-### Dissertations
+### Dissertations / Theses
 
 **Format**
 
 ```txt
-[CITE-TAG] Last name, First initial., "Title", MA/MS/Ph.D. Dissertation, Awarding
+[CITE-TAG] Last name, First initial., "Title", M.A./M.S./Ph.D. Dissertation, Awarding
 Institution, Date, <URL (if available)>.
 ```
 
 **Example**
 
 ``` txt
-[REST] Fielding, R., "Architectural Styles and the Design of Network-based
-Software Architectures", Ph.D. Dissertation, University of California,
-Irvine, 2000,
-<https://roy.gbiv.com/pubs/dissertation/top.htm>.
+[Shannon1940] Shannon, C., "A Symbolic Analysis of Relay and Switching
+Circuits", M.S. Thesis, Massachusetts Institute of Technology, 1940,
+<https://dspace.mit.edu/handle/1721.1/11173>.
 ```
 
 ## Web-based Public Code Repositories
