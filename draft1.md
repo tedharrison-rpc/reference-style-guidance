@@ -1,9 +1,9 @@
 # Reference Style Guidance
 
-This section provides guidance about reference entries commonly found in Internet-Drafts and RFCs; it is not comprehensive.  These are the recommended reference formats for differnet types of references, and authors should follow this guidance when drafting their documents.  Note: Being included on this page does NOT imply endoresement or recognition of any kind.  
+This section provides guidance about reference entries commonly found in Internet-Drafts and RFCs; it is not comprehensive.  These are the recommended reference formats for differnet types of references, and authors should follow this guidance when drafting their documents.  Note: Being included on this page does NOT imply endoresement or recognition of any kind.
 
 Send comments or questions about this guidance or other reference issues to the RFC Production Center (RPC) at rfc-editor@rfc-editor.org or open an [issue on
-GitHub](https://github.com/ietf/authors.ietf.org/issues).  
+GitHub](https://github.com/ietf/authors.ietf.org/issues).
 
 ## RFC Series
 
@@ -91,7 +91,7 @@ For more information on inserting references in RFCXML, see
 
 This guidance overrides [Section
 4.8.6.5 of RFC
-7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.5). 
+7322](https://www.rfc-editor.org/rfc/rfc7322.html#section-4.8.6.5).
 
 The format for references to errata reports is as follows:
 
@@ -118,7 +118,7 @@ state should not be referenced; they are not considered stable.
 If your Internet-Draft ["Updates" or
 "Obsoletes"](https://www.ietf.org/process/rfcs/#obsoleting-and-updating)
 another RFC and addresses errata filed against those RFCs, we recommend asking your Area
-Director (AD) or Stream Manager to verify the relevant reported errata. 
+Director (AD) or Stream Manager to verify the relevant reported errata.
 
 ## IANA Registries and Registry Groups
 
@@ -315,7 +315,7 @@ https://datatracker.ietf.org/wg/quic/meetings/
 > I-Ds. Organizations and sources are included in this list for the
 > sole purpose of providing examples to authors. The inclusion of an
 > organization in this list does not represent an endorsement of that
-> organization's standards, specifications, or other any documentation. 
+> organization's standards, specifications, or other any documentation.
 
 ### 3rd Generation Partnership Project (3GPP)
 
@@ -532,7 +532,7 @@ WHATWG to approve making anchors in a Living Standard permanent.
 
 ### World Wide Web Consortium (W3C)
 
-W3C provides two URLs for their documents: 
+W3C provides two URLs for their documents:
 
 - A "This version" URL. For example: <https://www.w3.org/TR/2008/REC-xml-20081126>.
 - A "Latest version" URL. For example: <https://www.w3.org/TR/xml/>.
@@ -862,5 +862,3 @@ Courtois, N., "Security Evaluation of GOST 28147-89 In View Of International
 Standardisation", Cryptology ePrint Archive, Paper 2011/211, 2011,
 <https://eprint.iacr.org/2011/211>.
 ```
-
-
