@@ -634,11 +634,12 @@ in the reference entry.
 - Is there a concern about the longevity of the reference's URL? For example, is
   the URL likely to redirect or "break" in the next few years?
 
-If there is a concern about the longevity of the URL, we recommending using an
-archived URL in the reference. For example, using the [Internet Archive Wayback
-Machine](https://web.archive.org/) or [Perma.cc](https://perma.cc/).
+If there is a concern about the longevity of the URL, we recommending
+using an archived URL in the reference. For example, using the
+[Internet Archive Wayback Machine](https://web.archive.org/):
 
 Example of an Internet Archive Wayback Machine URL:
+
 <https://web.archive.org/web/20260122123558/https://www.rfc-editor.org/>
 
 ### Websites
