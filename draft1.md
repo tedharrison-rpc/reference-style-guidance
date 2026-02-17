@@ -277,7 +277,7 @@ lists) have not been valid since 2005.
 
 ``` txt
 [SAAG_list] IETF Mail Archive, "saag Archive",
-<https://www.ietf.org/mail-archive/web/saag/current/maillist.html>.
+<https://mailarchive.ietf.org/arch/browse/saag/>.
 ```
 
 ### IETF Meeting Presentations
