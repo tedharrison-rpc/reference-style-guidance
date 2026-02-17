@@ -35,7 +35,7 @@ example:
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.1234.xml"/>
 ```
 
-For more information on inserting references in RFCXML see
+For more information on inserting references in RFCXML, see
 <https://authors.ietf.org/en/references-in-rfcxml>.
 
 ### Subseries - Best Current Practices (BCPs) and Internet Standards (STDs)
@@ -84,7 +84,7 @@ example:
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml9/reference.BCP.0237.xml"/>
 ```
 
-For more information on inserting references in RFCXML see
+For more information on inserting references in RFCXML, see
 <https://authors.ietf.org/en/references-in-rfcxml>.
 
 ### Errata
@@ -168,7 +168,7 @@ example:
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml8/reference.IANA.ancp_message-types.xml"/>
 ```
 
-For more information on inserting references in RFCXML see
+For more information on inserting references in RFCXML, see
 <https://authors.ietf.org/en/references-in-rfcxml>.
 
 ## Working Groups (WGs) and Research Groups (RGs)
@@ -187,7 +187,7 @@ Progress, Internet-Draft, draft-string-NN, Day Month Year,
 **Example**
 
 ``` txt
-[RFC-STYLE] Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)", Work in
+[RFCED-MODEL] Hoffman, P. and A. Rossi, "RFC Editor Model (Version 3)", Work in
 Progress, Internet-Draft, draft-editorial-rswg-rfc9280-updates-04, 31 July 2025,
 <https://datatracker.ietf.org/doc/draft-editorial-rswg-rfc9280-updates/>.
 ```
@@ -203,7 +203,7 @@ example:
 <xi:include href="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.rpc-rfc7322bis.xml"/>
 ```
 
-For more information on inserting references in RFCXML see
+For more information on inserting references in RFCXML, see
 <https://authors.ietf.org/en/references-in-rfcxml>.
 
 ### Working Group (WG) pages on Datatracker
@@ -224,7 +224,7 @@ For more information on inserting references in RFCXML see
 **Note: Finding a Working Group’s Datatracker page and the appropriate
 URL**
 
-A list of active IETF Working Groups is availabe on
+A list of active IETF Working Groups is available on
 [Datatracker](https://datatracker.ietf.org/wg/).
 
 Use the WG’s Datatracker URL. Both /charter and /about point to the same
@@ -491,7 +491,7 @@ The URL for the commit snapshot can be found by clicking the "Snapshot
 as of this commit" link provided at the main URL for a Living
 Standard.
 
-For more information on WHATWG commit snapshots see:
+For more information on WHATWG commit snapshots, see:
 <https://whatwg.org/faq#change-at-any-time>.
 
 **Format**
