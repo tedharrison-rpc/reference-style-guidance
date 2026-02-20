@@ -653,7 +653,7 @@ Example of an Internet Archive Wayback Machine URL:
 **Example**
 
 ``` txt
-[RFC-Editor] "RFC Editor", <https://https://www.rfc-editor.org/>.
+[RFC-Editor] "RFC Editor", <https://www.rfc-editor.org/>.
 ```
 
 **Titles for References to Websites.**
@@ -664,7 +664,7 @@ is the case, a description may be used instead.
 For example:
 
 ```txt
-Microsoft, "Microsoft home page", <https://https://www.microsoft.com/en-us/>.
+Microsoft, "Microsoft home page", <https://www.microsoft.com/en-us/>.
 ```
 
 **Dates for References to Websites**
