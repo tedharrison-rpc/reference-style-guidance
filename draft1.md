@@ -306,6 +306,42 @@ Meeting materials can also be found on each working group’s meeting page
 on Datatracker. For example,
 https://datatracker.ietf.org/wg/quic/meetings/
 
+### IAB Workshop Position Papers
+
+**Format**
+
+```txt
+[CITE-TAG] Last name, First initial., Ed. (if applicable), "Title",
+Name of IAB Workshop, Date, <URL>.
+```
+
+**Example**
+
+```txt
+[MARTINEZ] Martínez-Cervantes, L. M. and R. Guevara-Martínez,
+"Community Networks and the Quest for Quality", IAB Workshop on
+Barriers to Internet Access of Services (BIAS), January 2024,
+<https://www.ietf.org/slides/slides-biasws-community-networks-and-the-quest-for-quality-00.pdf>.
+```
+
+### IAB Workshop Presentations
+
+**Format**
+
+```txt
+[CITE-TAG] Presenter Last Name, First initial.,
+"Presentation Title", Name of IAB Workshop, Date, <URL>.
+```
+
+**Example**
+
+```txt
+[RAMESH-1] Ramesh, R., "Investigating the VPN Ecosystem through the
+lens of Security, Privacy, and Usability", IAB Workshop on Barriers to
+Internet Access of Services (BIAS), January 2024,
+<https://datatracker.ietf.org/meeting/interim-2024-biasws-03/materials/slides-interim-2024-biasws-03-sessa-investigating-the-vpn-ecosystem-through-the-lens-of-security-privacy-and-usability-00>.
+```
+
 ## Other Organizations
 
 > [!IMPORTANT]
